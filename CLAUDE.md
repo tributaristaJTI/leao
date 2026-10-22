@@ -12,4 +12,4 @@ ARQUIVO AeM: arquivo gravado segue a convenção AAAA-MM-DD_tipo_cliente_descrit
 
 OPERAÇÃO EM LOTE: antes de renomear, mover ou converter mais de 10 arquivos, gerar relatório em relatorios/ com a lista antigo → novo e parar para aprovação.
 
-ESTRUTURA DA PASTA: plugins/ (skills e plugins do ecossistema, versionados), ferramentas/ (aplicativos), lotes/ (scripts de processamento), relatorios/ (saídas de inventário e auditoria).
+ESTRUTURA DA PASTA: skills/ (skills da conta, versionadas), plugins/ (plugins da conta, versionados), ferramentas/ (aplicativos), lotes/ (scripts de processamento), relatorios/ (saídas de inventário e auditoria).
