@@ -1,0 +1,9 @@
+{
+  "name": "ecossistema-do-leao",
+  "version": "0.1.0",
+  "description": "Plugin de gestão CEO/fundador para o Ecossistema do Leão — governança, OKRs, pipeline comercial, conteúdo e posicionamento da Amaral e Melo Advogados e Agricompany.",
+  "author": {
+    "name": "Leonardo Amaral"
+  },
+  "keywords": ["ceo", "governanca", "agronegocio", "marca", "pipeline"]
+}

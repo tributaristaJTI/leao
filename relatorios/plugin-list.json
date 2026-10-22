@@ -1,0 +1,60 @@
+[
+  {
+    "id": "productivity@synced",
+    "version": "1.3.1",
+    "scope": "synced",
+    "enabled": true,
+    "installPath": "/root/.claude/plugins/synced/b2cc5b11-968c-4687-87d4-50cec9adc594_336a124f-c6ac-49f7-8ae9-f7275227afd8/productivity"
+  },
+  {
+    "id": "zapier@synced",
+    "version": "1.0.0",
+    "scope": "synced",
+    "enabled": true,
+    "installPath": "/root/.claude/plugins/synced/b2cc5b11-968c-4687-87d4-50cec9adc594_336a124f-c6ac-49f7-8ae9-f7275227afd8/zapier"
+  },
+  {
+    "id": "data@synced",
+    "version": "1.1.0",
+    "scope": "synced",
+    "enabled": true,
+    "installPath": "/root/.claude/plugins/synced/b2cc5b11-968c-4687-87d4-50cec9adc594_336a124f-c6ac-49f7-8ae9-f7275227afd8/data"
+  },
+  {
+    "id": "exa@synced",
+    "version": "3.4.1",
+    "scope": "synced",
+    "enabled": true,
+    "installPath": "/root/.claude/plugins/synced/b2cc5b11-968c-4687-87d4-50cec9adc594_336a124f-c6ac-49f7-8ae9-f7275227afd8/exa",
+    "mcpServers": {
+      "exa": {
+        "type": "http",
+        "url": "https://mcp.exa.ai/mcp?client=claude-code-plugin",
+        "headers": {
+          "x-exa-source": "claude-code-plugin"
+        }
+      }
+    }
+  },
+  {
+    "id": "box@synced",
+    "version": "1.0.0",
+    "scope": "synced",
+    "enabled": true,
+    "installPath": "/root/.claude/plugins/synced/b2cc5b11-968c-4687-87d4-50cec9adc594_336a124f-c6ac-49f7-8ae9-f7275227afd8/box"
+  },
+  {
+    "id": "ecossistema-do-leao@synced",
+    "version": "0.1.0",
+    "scope": "synced",
+    "enabled": true,
+    "installPath": "/root/.claude/plugins/synced/b2cc5b11-968c-4687-87d4-50cec9adc594_336a124f-c6ac-49f7-8ae9-f7275227afd8/ecossistema-do-leao"
+  },
+  {
+    "id": "legal@synced",
+    "version": "1.1.0",
+    "scope": "synced",
+    "enabled": true,
+    "installPath": "/root/.claude/plugins/synced/b2cc5b11-968c-4687-87d4-50cec9adc594_336a124f-c6ac-49f7-8ae9-f7275227afd8/legal"
+  }
+]

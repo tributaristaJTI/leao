@@ -1,0 +1,419 @@
+{
+  "lastUpdated": 1792704563496,
+  "skills": [
+    {
+      "skillId": "skill_016wCcEcDEd1g4Xhn1gwQQMW",
+      "name": "apple-design",
+      "description": "Fundamentos de design da Apple (hierarquia, tipografia, profundidade, consistência, feedback) e interfaces fluidas (springs, gestos, interrupção) para construir ou revisar deck, documento, poster, painel ou artifact HTML da casa. Complementa layout-aem.",
+      "source": "plugin",
+      "updatedAt": "2026-10-21T02:55:29.324296Z",
+      "backingPluginId": "plugin_01YVykGXggtJUrkbWHJuK7wk"
+    },
+    {
+      "skillId": "skill_01TH76YGsgw8gz2YraVM4sV8",
+      "name": "melhorar-prompts",
+      "description": "Melhora prompts que o Leonardo vai entregar a um executor (outra conversa do Claude, tarefa agendada, Cowork, Claude Code ou subagente, Codex/ChatGPT, pessoa da equipe), reduzindo ambiguidade e retrabalho sem mudar intenção, escopo, restrições nem autorizações, e conferindo o prompt contra os limites de quem vai executá-lo. Use SEMPRE que o usuário digitar /melhorar-prompts ou pedir \"melhora esse prompt\", \"revisa esse prompt\", \"estrutura esse prompt\", \"cria um prompt para\", \"monta o prompt da tarefa agendada\", \"prompt para o Cowork/Codex\", ou \"melhore e execute\". NÃO use para revisar texto jurídico ou conteúdo (crivo-do-leao), para criar ou editar skill e SKILL.md (skill-creator), para instrução de project ou decisão de onde uma capacidade deve viver (project Arquiteto, /onde), nem em tarefa comum em que ninguém pediu trabalho sobre prompt.",
+      "source": "plugin",
+      "updatedAt": "2026-10-21T05:04:14.119721Z",
+      "backingPluginId": "plugin_01LpV8scoF3Vrq9t1b5ocP7Z"
+    },
+    {
+      "skillId": "skill_01TZaRDsP4cxHoszoPfCDCae",
+      "name": "deck-aula-aem",
+      "description": "Apresentações didáticas no padrão visual e pedagógico AeM — decks .pptx com identidade da marca, uma ideia por slide, ilustrações vetoriais e QA visual obrigatório.",
+      "source": "plugin",
+      "updatedAt": "2026-09-09T08:59:49.984161Z",
+      "backingPluginId": "plugin_01QKk4NyVpc4nvQJ5Zc2YUm5"
+    },
+    {
+      "skillId": "skill_01UH6cvV3TcQkiNKsMwJEQZZ",
+      "name": "guardiao-de-caso",
+      "description": "Guardião do dossiê de cliente no Arquivo AeM (Google Drive): mantém o mapa estrutural do cliente/grupo (_mapa.md: pessoas, patrimônio, sociedades, casos em andamento) e, por caso, o retrato vivo (_casos/caso/_estado.md) com livro só-acréscimo (_ledger/). Use SEMPRE que o usuário digitar /dossie, ou pedir 'abre o dossiê', 'em que pé está o caso', 'o que decidimos sobre', 'mapeia o caso', 'mapa do grupo', 'atualiza o estado do caso'. Lê documentos por ID e mapeia com lastro; não redige peças (braco-direito, parecer-aem), não arquiva documentos (arquivo-do-leao), não planeja fases (mestre-de-obras), não registra status de tarefa (monday-caso), não grava tese (destila).",
+      "source": "plugin",
+      "updatedAt": "2026-10-02T14:06:07.891673Z",
+      "backingPluginId": "plugin_01DntNfwWk16nYXbHhAcqkVP"
+    },
+    {
+      "skillId": "skill_01U5DqPAbABSbEKnMNi7yzRA",
+      "name": "regra-matriz",
+      "description": "Skill de decomposição de normas tributárias pela Regra-Matriz de Incidência Tributária (RMIT) e pelo Percurso Gerativo de Sentido (S1→S4) de Paulo de Barros Carvalho. Use SEMPRE que o usuário pedir para 'decompor', 'analisar pela regra-matriz', 'montar a RMIT', 'qual a regra-matriz de', 'quais os critérios de incidência', 'analisar o fato gerador', 'decomposição normativa', ou qualquer variação de análise estrutural de norma tributária usando o método PBC. Também acione quando o usuário mencionar 'S1', 'S2', 'S3', 'S4', 'percurso gerativo de sentido', 'planos interpretativos', ou pedir para 'interpretar o artigo X pela RMIT'. Acione tanto para análise de dispositivos legais isolados ('decomponha o art. 138 da LC 214') quanto para operações concretas ('monte a regra-matriz da venda de soja por produtor PF para trading exportadora'). Não use para análises tributárias genéricas que não exijam decomposição estrutural — para isso existem as skills tributarista-consultivo e tributarista-contencioso.",
+      "source": "plugin",
+      "updatedAt": "2026-09-05T14:28:23.994374Z",
+      "backingPluginId": "plugin_01Kt4T5H5QZre7KSFsmpwH8X"
+    },
+    {
+      "skillId": "skill_013v4GiRQVpKxaKrFutmdagN",
+      "name": "atas-leao",
+      "description": "Skill de leitura e estruturação de atas de reunião do escritório Amaral e Melo Advogados e da Agricompany. Use SEMPRE que o usuário digitar /ata, ou mencionar \"ler a ata\", \"resumir a reunião\", \"extrair os próximos passos\", \"o que ficou em aberto\", \"ações da reunião\", \"ata de sócios\", \"ata do comitê\", \"transcrição da reunião\", ou pedir para transformar uma ata, transcrição ou notas de reunião em resumo estruturado com decisões, próximos passos e pendências. A skill extrai com fidelidade e NOMEIA as lacunas (decisão sem dono, ação sem prazo) — nunca preenche o que a ata não disse. NÃO use para preparar a reunião antes dela acontecer (isso é a legal:meeting-briefing). NÃO use para revisar texto jurídico (crivo-do-leao) nem para arquivar no acervo (destila) — esses são passos a jusante que esta skill aciona, não substitui.",
+      "source": "plugin",
+      "updatedAt": "2026-09-05T14:28:19.863561Z",
+      "backingPluginId": "plugin_01YcASct4h2AngLEepWwtEd1"
+    },
+    {
+      "skillId": "skill_01TNKhkihxYQWGnthQVkYYks",
+      "name": "mestre-de-obras",
+      "description": "Planejador de projetos de cliente (Amaral e Melo + Agricompany). Lê ata, briefing ou extração da atas-leao e monta o plano de trabalho em dois níveis: macro (antes da proposta: fases, escopos candidatos, complexidade, esforço, gatilhos) e execução (após o aceite: tarefas, perfil de executor, delegabilidade, dependências, prazos relativos), sempre com lacunas nomeadas, e entrega o bloco caso pronto para a monday-caso. Use SEMPRE que o usuário digitar /plano, /plano macro ou /plano execucao, ou pedir 'monta o plano de trabalho', 'plano de ação do caso', 'fases do projeto', 'o que dá pra delegar', 'quem faz o quê', 'dimensiona esse caso', 'complexidade do projeto', 'escopo do projeto', ou qualquer planejamento da execução de projeto de cliente (tributário, societário, sucessório, transação de fazenda, consultoria Agricompany). NÃO use para registrar no Monday (monday-caso), precificar (proposta-aem), extrair ata (atas-leao) nem produzir análise jurídica. O mestre-de-obras planeja o trabalho; não o executa.",
+      "source": "plugin",
+      "updatedAt": "2026-08-29T20:54:18.001954Z",
+      "backingPluginId": "plugin_01Geq4H9cjFPc7AwPfRLq7Rd"
+    },
+    {
+      "skillId": "skill_01UrLKEPaCTQEDxJJ5AqAFty",
+      "name": "destila",
+      "description": "Skill transversal de destilação e arquivamento no acervo do escritório. Use SEMPRE que o usuário digitar /destila, ou mencionar 'destila isso', 'arquiva no acervo', 'manda pro acervo', 'salva no acervo', 'vira nota canônica', 'transforma em nota', 'guarda essa tese', 'preserva essa decisão', ou qualquer variação de pedido para transformar um output pronto (parecer, análise, contrato) ou uma decisão externa (CARF, STJ, STF, TJ) em nota consultável do acervo. A skill extrai a tese para o esquema canônico, separando o que é durável do que é volátil, pede confirmação, e grava o .md direto na pasta do acervo no Google Drive. NÃO use para revisar ou verificar texto — para isso existe o crivo-do-leao. NÃO use para produzir conteúdo (pareceres, contratos, artigos) — para isso existem as skills de produção. O destila é exclusivamente pós-produção: preserva o que já está pronto, não cria nem corrige.",
+      "source": "plugin",
+      "updatedAt": "2026-10-21T05:04:05.264349Z",
+      "backingPluginId": "plugin_01LTgnaFL5NBJukANzeihLSx"
+    },
+    {
+      "skillId": "skill_015nJG6wzfCoJpW7hHGqV3Pb",
+      "name": "poda",
+      "description": "Enxuga documento jurídico produzido pelo escritório (contrato, minuta de caso, modelo padrão) sem perder validade nem proteção. Mede o excesso contra a finalidade do documento, separa núcleo, função, proteção e trecho podável, propõe cortes tipificados em laudo para aprovação e, aprovado, gera a versão enxuta com controle de alterações, inventário de obrigações e conferência de remissões. Use SEMPRE que o usuário digitar /poda ou /poda aplica, ou pedir para enxugar, podar, cortar excesso, tirar exagero, simplificar, reduzir ou encurtar um contrato, minuta ou modelo, ou disser que o documento ficou longo, extenso, prolixo, pesado ou exagerado. NÃO use para verificar erro, citação ou consistência (crivo-do-leao), para redigir ou redesenhar a estrutura do contrato (braco-direito), para revisar contra o playbook de negociação (legal:contract-review) nem para explicar ao cliente documento de terceiro. A poda corta; não acrescenta cláusula nem muda o negócio.",
+      "source": "plugin",
+      "updatedAt": "2026-09-22T20:58:40.758309Z",
+      "backingPluginId": "plugin_011VEfGhtbHai4opYqJX27M4"
+    },
+    {
+      "skillId": "skill_014MEVv44ij7u46QZhGdYWfk",
+      "name": "monitor-carf",
+      "description": "Monitora o CARF para o agro: coleta acórdãos e súmulas, registra no Notion e entrega ficha de pauta de conteúdo. Comandos /carf, /carf repasse, /carf calibra, /carf teste. Roda em tarefa agendada.",
+      "source": "plugin",
+      "updatedAt": "2026-10-21T19:50:11.417909Z",
+      "backingPluginId": "plugin_01Lh8zQ6tJmMUMgvbH48rLgz"
+    },
+    {
+      "skillId": "skill_01E6a9PAeJV3BU1Adctge1Pb",
+      "name": "parecer-aem",
+      "description": "Skill para emissão de pareceres jurídicos e briefings da Amaral e Melo Advogados. Use SEMPRE que o usuário mencionar 'parecer', 'opinião legal', 'briefing jurídico', 'consulta tributária', 'análise jurídica', 'nota técnica', ou pedir para analisar a legalidade/constitucionalidade de alguma questão tributária ou do agronegócio. Também acione quando o usuário pedir para 'emitir parecer sobre', 'analisar juridicamente', 'fundamentar posição sobre', ou qualquer variação de pedido de produção de peça consultiva. Mesmo que o pedido seja informal (ex: 'me ajuda a montar aquele parecer sobre ICMS'), esta skill deve ser acionada. Não use para petições, contratos, artigos de opinião ou apresentações — apenas para peças consultivas (pareceres e briefings).",
+      "source": "plugin",
+      "updatedAt": "2026-09-05T14:28:29.603715Z",
+      "backingPluginId": "plugin_013crcURqiUh2HGeFX9XfYyu"
+    },
+    {
+      "skillId": "skill_01WcwFgCQNwaPduYyaCFkm3U",
+      "name": "arquivo-do-leao",
+      "description": "Achar e guardar documentos do Arquivo AeM (Google Drive) com catálogo no Notion: /acha, /guarda, /entrada (triagem da _Entrada), /entrada resolve, /catalogo. Nunca apaga, nunca cria pasta de cliente sem confirmação, credencial só como ponteiro.",
+      "source": "plugin",
+      "updatedAt": "2026-09-08T21:32:11.093244Z",
+      "backingPluginId": "plugin_01XSVopKgCzWkvWc8tfhi7GT"
+    },
+    {
+      "skillId": "skill_01VKaXaCN5xJnNQqn4rk7Sx3",
+      "name": "voz-autoral-leonardo",
+      "description": "Aplica a voz autoral de Leonardo Amaral na redação de peças assinadas de fôlego: artigos jurídicos, ensaios, papers, capítulos de livro, dissertações e textos para publicação (ConJur, JOTA, periódicos, IBET). Use SEMPRE que o usuário pedir para \"escrever/redigir/rascunhar um artigo\", \"um paper\", \"um capítulo\", \"um texto para publicação\", \"um artigo para o ConJur/IBET\", ou trabalhar no livro em produção — e também ao revisar a voz de uma peça já escrita. A skill carrega quatro registros (divulgação, opinião publicada, técnico-aplicado, científico- dissertativo); selecione o registro pela peça e leia o reference correspondente antes de escrever. NÃO use para post de LinkedIn, mensagem de WhatsApp, texto institucional ou qualquer comunicação de marca — isso é da skill marca-raro. O sinal distintivo: peça autoral assinada e argumentativa (aqui) versus comunicação de marca curta (marca-raro).",
+      "source": "plugin",
+      "updatedAt": "2026-08-28T15:15:48.574319Z",
+      "backingPluginId": "plugin_01PzssiDTf3EM3TjsBF8Lx32"
+    },
+    {
+      "skillId": "skill_01Bvf3Qj2D39CFyNmBpSXz3v",
+      "name": "crivo-do-leao",
+      "description": "Skill de verificação e revisão crítica de outputs jurídicos. Use SEMPRE que o usuário mencionar 'crivo', 'revisar', 'verificar', 'conferir', 'checar', 'validar', 'tá certo isso?', 'confere pra mim', 'passa o crivo', 'tem algum erro?', 'antes de mandar pro cliente', ou qualquer variação de pedido para revisar um texto jurídico, análise tributária, contrato ou outro output antes de uso final. Também acione quando o usuário usar o comando /crivo, ou /crivo social para verificar conteúdo de marca curto (post LinkedIn/Instagram, carrossel, roteiro de vídeo, legenda, texto institucional, material da assessoria) pelo Modo Social (eixos S1 técnico-jurídico, S2 voz e anti-padrões, S3 posicionamento RARO). Esta skill NÃO corrige — ela aponta suspeitas e devolve para o usuário decidir. Não use para produção de conteúdo, redação de pareceres ou análises — para isso existem outras skills. O Crivo é exclusivamente um verificador pós-produção. NÃO use para enxugar ou cortar excesso de texto (poda).",
+      "source": "plugin",
+      "updatedAt": "2026-09-22T20:58:44.794785Z",
+      "backingPluginId": "plugin_011nW7iLvVYZkebGLK5VvfSM"
+    },
+    {
+      "skillId": "skill_01LAw7nCSq9QwB3a7XUZRsrM",
+      "name": "ponto-do-leao",
+      "description": "Skill de registro de atividades e relatório diário de produtividade (timesheet pessoal) do Ecossistema do Leão. Use SEMPRE que o usuário digitar /ponto (registrar a sessão atual) ou /espelho (relatório do dia), ou mencionar \"bate o ponto\", \"registra essa sessão\", \"espelho do dia\", \"relatório do meu dia\", \"onde gastei meu tempo\", \"como foi meu dia de trabalho\", \"o que eu fiz hoje aqui\". Também acione automaticamente ao concluir entrega produzida por skill de produção, conforme regra das userPreferences. Cada sessão vira um arquivo .md imutável na pasta Ponto do Google Drive; o /espelho varre o dia e consolida em quatro blocos, na ordem, eixo (estratégico/tático/operacional), finalidade (posicionamento, comercial, aprendizado, artigos, jurídico, gestão), casos/clientes e temas. NÃO use para metas e OKRs (governanca-leao), nem para arquivar teses no acervo (destila), nem para estruturar atas de reunião (atas-leao).",
+      "source": "plugin",
+      "updatedAt": "2026-07-11T13:33:36.441927Z",
+      "backingPluginId": "plugin_014eioi4X6QknafETZjC64WM"
+    },
+    {
+      "skillId": "skill_01MVoQChouaSDQ9EsPaDuNkt",
+      "name": "faxina-do-leao",
+      "description": "Skill de organização dos arquivos locais do Mac do Leonardo (Desktop, Downloads e Documents), operando pela ponte com o computador (Cowork) ou em sessão rodando no próprio computador. Use SEMPRE que o usuário digitar /faxina, /faxina direto ou /faxina diagnostico, ou mencionar \"organizar meus arquivos\", \"arruma o desktop\", \"limpa os downloads\", \"organiza as pastas do mac\", \"faxina nos arquivos\", \"meu mac tá uma bagunça\", \"coloca ordem nos arquivos\", \"onde foi parar aquele arquivo\" (consultar relatórios), ou qualquer variação de pedido para varrer, classificar, renomear ou mover arquivos locais do computador. NÃO use para o acervo institucional no Google Drive (destila cuida disso) nem para organizar knowledge de projects. Regra inegociável: esta skill NUNCA apaga arquivo — classifica, nomeia, move e relata; na dúvida, move para _Para_Revisar.",
+      "source": "plugin",
+      "updatedAt": "2026-08-11T20:21:10.877450Z",
+      "backingPluginId": "plugin_01Gk2wrshp2hVhBtsw45FJm7"
+    },
+    {
+      "skillId": "skill_014DVL8TWEgt6KYUKkSHAowV",
+      "name": "agint-aresp",
+      "description": "Agravo interno (art. 1.021 do CPC) contra decisão monocrática de relator do STJ em AREsp/REsp: parecer de viabilidade GO/NO-GO, redação, teste adversarial e contraminuta. Acione com /agint.",
+      "source": "plugin",
+      "updatedAt": "2026-08-20T20:11:27.241429Z",
+      "backingPluginId": "plugin_015hhm4iSTZowS99HFAnKyqj"
+    },
+    {
+      "skillId": "skill_01Aa5LC8ms3eJJ7KQmoT2fPg",
+      "name": "proposta-aem",
+      "description": "Sistema comercial da Amaral e Melo Advogados: contextualiza o caso, dimensiona a dor e o valor em jogo, precifica e redige propostas de honorários persuasivas — em conformidade com o Provimento 205/2021 da OAB — em documento .docx timbrado. Use SEMPRE que o usuário digitar /proposta, ou pedir para 'montar/gerar/redigir uma proposta', 'proposta comercial', 'proposta de honorários', 'precificar um caso', 'preço para o cliente', 'quanto cobrar', 'proposta para a reunião de fechamento', ou qualquer variação de elaboração de proposta de serviços jurídicos. NÃO use para o briefing que prepara a reunião comercial (isso é o /comercial do briefing-juridico) nem para refazer a análise jurídica (isso vem das skills tributarista-consultivo, tributarista-contencioso e dívida-rural). A proposta-aem é a camada COMERCIAL: precifica e persuade sobre uma análise que já existe — não reabre a tese.",
+      "source": "plugin",
+      "updatedAt": "2026-09-05T14:28:21.691769Z",
+      "backingPluginId": "plugin_013Q9RLWBWowhPcBPfro66L6"
+    },
+    {
+      "skillId": "skill_01TH1TPTYRc7pfPog2jhTHPu",
+      "name": "fiel-da-balanca",
+      "description": "Agente avaliador neutro de arranjos de mercado no agro entre produtor médio/grande, cooperativa, revenda de insumos, gestora rural/financeira e escritório jurídico. Mapeia onde o arranjo cria valor líquido, quem captura, quem perde por transferência, e se A&M + Agricompany devem entrar. Use SEMPRE que o usuário digitar /fiel, /arranjo, /adesao ou /tese-mercado, mencionar 'avaliar arranjo', 'avalia esse convite', 'vale a pena aderir/entrar', 'quem ganha com esse modelo', 'parecer de adesão', 'tese de mercado', 'cooperativa/pool/condomínio de compras', 'estrutura de comercialização', ou enviar estatuto, ata ou apresentação de estrutura envolvendo produtores (comercialização, compra conjunta, barter, funding). Veredito padrão: 'não estruture/não adira' — o ônus é do arranjo; concluir 'não há oportunidade' é saída legítima. NÃO use para operação própria do cliente (tributarista-consultivo), autuação (tributarista-contencioso), decisão de sócios (conselho-do-leao) nem revisão de texto (crivo-do-leao).",
+      "source": "plugin",
+      "updatedAt": "2026-07-10T08:11:50.513266Z",
+      "backingPluginId": "plugin_016QLnojdb1Nom6CVVAUxEno"
+    },
+    {
+      "skillId": "skill_01KMeEX8HSQCHRDf7WaUwy63",
+      "name": "artigo-juridico",
+      "description": "Produz artigos jurídicos assinados por Leonardo Amaral do começo ao fim: fixa a tese, monta o esqueleto argumentativo do registro certo, reúne a fundamentação, redige seção a seção e formata em .docx. Use SEMPRE que o usuário pedir para \"escrever/redigir/produzir/montar um artigo\", \"um paper\", \"um capítulo\", \"um texto para o ConJur/JOTA/IBET\", ou trabalhar no livro em produção. Orquestra a skill voz-autoral-leonardo (para o tom) e a skill regra-matriz (para a decomposição normativa nos registros densos). NÃO confundir com a voz-autoral-leonardo sozinha, que cuida só do tom e serve para revisar a voz de um texto pronto; NÃO confundir com marca-raro, que é post e comunicação de marca. Esta skill é a produção completa do artigo, da tese ao arquivo.",
+      "source": "plugin",
+      "updatedAt": "2026-07-04T16:52:57.949147Z",
+      "backingPluginId": "plugin_01EQZP4F4HrcnZn9tnBdZK8F"
+    },
+    {
+      "skillId": "skill_01R8QWMtBEnx2JhEbYLG5mVK",
+      "name": "monday-caso",
+      "description": "Registra projetos de clientes (grupos familiares) no Monday com a estrutura padrão da Amaral e Melo + Agricompany — board por fases, colunas canônicas, itens extraídos dos documentos do caso, automações de alerta e bloco na Google Agenda. Use SEMPRE que o usuário digitar /monday-caso, ou pedir para \"registrar o caso no Monday\", \"criar o board do cliente\", \"lançar o projeto da família X no Monday\", \"abrir esse caso no Monday\", ou qualquer variação de registro/atualização de projeto de cliente no Monday. NÃO use para indicadores e OKRs do escritório (governanca-leao), timesheet (ponto-do-leao) nem produção de peças jurídicas.",
+      "source": "plugin",
+      "updatedAt": "2026-08-20T20:05:54.450471Z",
+      "backingPluginId": "plugin_016AqurNA9EgQvoH7W2dFfpi"
+    },
+    {
+      "skillId": "skill_01BJLt4bRuJ2BYq4RQpy6cv4",
+      "name": "braco-direito",
+      "description": "Associado sênior virtual de Leonardo Amaral (Amaral e Melo) — executor de confiança com visão processual afiada e atuação abrangente em agronegócio, societário, empresarial, contratos, defesas administrativas tributárias e não tributárias, recursos e endividamento rural. Use SEMPRE que o usuário digitar /delega ou usar linguagem de delegação de caso ou tarefa jurídica, como \"assume esse caso\", \"toca isso pra mim\", \"prepara a defesa\", \"cuida disso\", \"me entrega pronto\", \"redige a impugnação/contestação/recurso/inicial/embargos/contrato\", ou pedir produção de peça processual, defesa administrativa ou condução de caso do início ao fim. Acione também quando a demanda atravessar várias skills e exigir um dono único. Não substitui as skills especializadas — aciona-as como ferramentas e responde pelo pacote final. NÃO use para decisão estratégica de sócios (conselho-do-leao), revisão ou enxugamento de texto pronto (crivo-do-leao, poda), artigos (artigo-juridico) nem marca (marca-raro).",
+      "source": "plugin",
+      "updatedAt": "2026-09-22T20:58:49.971282Z",
+      "backingPluginId": "plugin_01HCqBAGjLwoCdN514Q6B2GM"
+    },
+    {
+      "skillId": "skill_017LYj9k2ubwtCVB6ztMcCbD",
+      "name": "cerebro-pbc",
+      "description": "Estuda um corpo normativo e mapeia as interpretações possíveis pelo Percurso Gerativo de Sentido (S1→S4) de Paulo de Barros Carvalho, ranqueadas por defensabilidade. Use para ESTUDAR um recorte da reforma (tema, capítulo, conjunto de dispositivos) ou uma questão interpretativa aberta — 'estudar a reforma', 'mapear as interpretações de', 'quais as leituras possíveis de', 'levantar as controvérsias de', 'modo corpus'. NÃO é a regra-matriz (que decompõe UMA norma) — esta orquestra MUITAS e a chama como motor; NÃO é parecer de operação concreta (tributarista-consultivo) nem contencioso. Arquiva via destila.",
+      "source": "plugin",
+      "updatedAt": "2026-07-08T07:51:54.726690Z",
+      "backingPluginId": "plugin_01Wt2MvxbDAwizTTDCVa15Gr"
+    },
+    {
+      "skillId": "skill_01UzJxDDHrrU8TCGHmXZ3E7n",
+      "name": "conselho-do-leao",
+      "description": "Agente de decisões estratégicas para a Amaral e Melo Advogados e o Ecossistema do Leão. Use SEMPRE que o usuário mencionar 'decisão estratégica', 'preciso decidir', 'estou em dúvida sobre', 'dilema', 'o que fazer sobre', 'vale a pena', 'compensa mudar', 'risco de', ou qualquer variação de pedido de análise decisória sobre o escritório, a Agricompany, posicionamento, expansão, precificação, estrutura societária, governança ou decisões de sócios. Também acione quando o usuário usar os comandos /decisao, /decisão, /triagem, /defaults, /explorar, /avaliar, /diabo, /registro, /revisao, /revisão, /raro ou /conselho. Não use para tarefas operacionais, pareceres jurídicos, contratos ou produção de conteúdo — para isso existem outras skills.",
+      "source": "plugin",
+      "updatedAt": "2026-04-13T19:10:26.900653Z",
+      "backingPluginId": "plugin_01PmrRjZmvKmhdLosCcGLHkm"
+    },
+    {
+      "skillId": "skill_01RjhsYsoQh8BvM8VqBYWXER",
+      "name": "layout-aem",
+      "description": "Identidade visual da Amaral e Melo: papel timbrado .docx (modos tribunal, cliente, interno, publicação e contrato) e tokens de marca para HTML, deck e imagem. Infraestrutura chamada por dependência, ou ao mencionar papel timbrado, marca ou layout AeM.",
+      "source": "plugin",
+      "updatedAt": "2026-09-21T18:29:05.840510Z",
+      "backingPluginId": "plugin_01Ub6xCt2cP2MZsfnP1TVwXk"
+    },
+    {
+      "skillId": "skill_01X3MkEFt51q8q9aRKTuDHDN",
+      "name": "mod-grupo-economico",
+      "description": "Módulo de análise de grupo econômico com produtor rural pessoa física e participações societárias. Use SEMPRE que o usuário mencionar grupo econômico, produtor com empresa, participação societária, holding familiar, confusão patrimonial, estrutura societária complexa, produtor que também é médico/empresário/comerciante, múltiplas atividades, participações cruzadas, reorganização societária familiar, ou qualquer variação de análise envolvendo pessoa física rural com vínculos societários em atividades agropecuárias e/ou não agropecuárias.",
+      "source": "plugin",
+      "updatedAt": "2026-04-06T13:27:46.580865Z",
+      "backingPluginId": "plugin_012dbvK6ZQPrqHQ3EkS239nL"
+    },
+    {
+      "skillId": "docs",
+      "name": "docs",
+      "description": "docs (editable docs people share and comment on; the default for any document, named as a doc or not: a document, report, proposal, resume, cover letter, letter, contract, policy, form, template, worksheet, essay, handbook, guide, how-to, cheat sheet, SOP or other writing to keep, share, collaborate on, send, submit, print or sign; a doc exports to Word, PDF, Markdown or Google Docs, so needing a file to send, attach, upload, submit or print is no reason to pick Word, and a file nobody asked for is a doc, not Word; a plan, comparison, summary or notes asked in chat stays in chat; a pasted claude.ai artifact link may be a doc: check with docs tools first; Word or another file format named, tracked changes wanted, or a .docx to change or use as a template → that format's skill): making one → if no docs-connector instructions are in context, call its `guide` (topic.instructions) first; then create the doc (headings only, no body) before any search, file read or plan, even with files attached.",
+      "source": "anthropic-example",
+      "updatedAt": "2026-09-30T00:33:27.599727Z"
+    },
+    {
+      "skillId": "skill_01JstY4rjcDVBHVFd8HQ9aZq",
+      "name": "pesquisa-gcap",
+      "description": "Pesquisa dirigida de IR-GCAP em reorganizações patrimoniais rurais (régua do VTN, art. 22, promessa de compra e venda, Lei 15.270, ITBI, comodato). Acione com /gcap seguido do cliente, ou 'pesquisa o ganho de capital do caso X', 'pontos de atenção do GCAP'.",
+      "source": "plugin",
+      "updatedAt": "2026-10-05T17:40:03.337186Z",
+      "backingPluginId": "plugin_01JYxTNcxfovfYsiiztFXaXt"
+    },
+    {
+      "skillId": "google-workspace",
+      "name": "google-workspace",
+      "description": "Read this before the first Google Drive, Docs, Sheets or Slides connector call whenever the task creates or changes a Google file. Use this skill whenever the user wants to create or change a Google Doc, Sheet or Slides file in their Google Drive. Triggers include: a request that names Google Docs, Sheets, Slides or Drive and asks to make, edit, format, copy or rename a file; a docs.google.com link with a request to change that file, even a one-line fix or suggested edits; and any follow-up change to a Google file from earlier in the chat, even \"change it\" or \"add a tab\". Includes helper scripts for document positions, cell ranges and slide layout. However, if the user asks for a doc, deck or spreadsheet without naming Google, or gives a Google file only as source material for something new, use Claude's own output type instead. Do NOT use for read-only questions about a Google file, or for Word, Excel, PowerPoint or PDF files.",
+      "source": "anthropic-example",
+      "updatedAt": "2026-10-14T14:41:49.960676Z"
+    },
+    {
+      "skillId": "computer-use",
+      "name": "computer-use",
+      "description": "Read this skill before the first step of any request to do something in an app on the person's own computer (Notes, Finder, System Settings, any desktop app), to look at their screen, or for \"computer use\". Computer use (desktop control) lets Claude take screenshots of the person's desktop and control it with clicks, typing and scrolling through the Claude desktop app; its tools are named mcp__computer-use__* when the session runs in the desktop app and mcp__remote-devices__computer_* when a cloud session is linked to the person's computer; before computer use is turned on for a conversation there may be no such tools, only an enable__mcp__remote-devices__computer tool, which turns it on. It covers turning it on, picking the right tool, the access flow, and the safety rules for tiered apps, links and financial actions. It is not for websites, which go through Claude in Chrome or the built-in browser and their own skills.",
+      "source": "anthropic-example",
+      "updatedAt": "2026-10-08T17:34:24.164396Z"
+    },
+    {
+      "skillId": "chrome-browser",
+      "name": "chrome-browser",
+      "description": "Read this skill before the first step that uses Claude in Chrome, the browser extension whose tools are named mcp__claude-in-chrome__* (also called Chrome, the browser extension, or the external browser) and which acts in the person's real Chrome with their own sign-ins; before those tools are turned on there may be a single enable__mcp__claude-in-chrome tool instead. It covers loading the tools in one ToolSearch call, checking the person's open tabs and working in a new tab, site permissions, GIF recordings, console logs, dialogs to avoid, and when to stop and ask. It is not for the built-in browser (mcp__Claude_Browser__* or mcp__remote-devices__Claude_Browser__* tools), which has its own skill, and it does not decide which browser to use.",
+      "source": "anthropic-example",
+      "updatedAt": "2026-09-18T21:09:50.227858Z"
+    },
+    {
+      "skillId": "skill_01Ei6sgyxb62cXvYGcYGz67a",
+      "name": "mod-ir-venda-imovel",
+      "description": "Módulo de apuração de IR sobre ganho de capital na alienação de imóveis rurais por pessoa física. Use SEMPRE que o usuário mencionar venda de fazenda, alienação de imóvel rural, ganho de capital rural, GCap, VTN, DIAT, fatores de redução, custo de aquisição de imóvel rural, benfeitorias em imóvel rural, ou qualquer variação de apuração de imposto na venda de terra. Também acione para consultas sobre isenções (pequeno valor, único imóvel, reinvestimento em 180 dias), regime do VTN vs contratual, ou retificação de DITR para otimizar VTN.",
+      "source": "plugin",
+      "updatedAt": "2026-04-06T13:27:38.686888Z",
+      "backingPluginId": "plugin_01VHRfNow9A5DVdr7x8A6V3L"
+    },
+    {
+      "skillId": "skill_01Hy9yaVMBoTTFWp6wqKepvi",
+      "name": "tributarista-contencioso",
+      "description": "Skill de análise tributária contenciosa e defesa fiscal. Use SEMPRE que o usuário mencionar autuação fiscal, auto de infração, defesa administrativa, impugnação, recurso, CARF, DRJ, contencioso judicial, nulidade, glosa, litígio tributário, multa fiscal, lançamento de ofício, termo de início de fiscalização, mandado de procedimento fiscal, ou qualquer análise sobre exigência fiscal já formalizada. Também acione quando o usuário pedir para 'impugnar', 'defender contra', 'analisar a autuação', 'recorrer de', 'verificar nulidade', 'avaliar chances de êxito', ou mencionar procedimentos como execução fiscal, exceção de pré-executividade, embargos à execução, ação anulatória. Não use para planejamento tributário prospectivo ou estruturação de operações — para isso existe a skill tributarista-consultivo.",
+      "source": "plugin",
+      "updatedAt": "2026-04-01T16:41:08.414073Z",
+      "backingPluginId": "plugin_01Qtzaw5vSov85QEHDkTGYJq"
+    },
+    {
+      "skillId": "skill_01F4uAeTBKAfFhGWfDkQYKtu",
+      "name": "mod-comparativo-pf-pj",
+      "description": "Módulo de comparação de carga tributária entre atividade rural como pessoa física e como pessoa jurídica. Use SEMPRE que o usuário mencionar comparativo PF PJ, pessoa física versus pessoa jurídica, constituir empresa rural, migrar para PJ, holding rural operacional, vantagem tributária PJ agro, regime tributário ideal para produtor rural, lucro real versus livro caixa, ou qualquer variação de análise sobre a conveniência de operar como PF ou PJ no agronegócio.",
+      "source": "plugin",
+      "updatedAt": "2026-04-06T13:27:39.985438Z",
+      "backingPluginId": "plugin_0122edbuX15vNNTbUttaKAA8"
+    },
+    {
+      "skillId": "skill_01DeeN7hZmyAHssFDFE3JDFZ",
+      "name": "mod-ibs-cbs-diferimento",
+      "description": "Módulo de análise da reforma tributária aplicada ao agronegócio. Use SEMPRE que o usuário mencionar IBS, CBS, reforma tributária, imposto sobre bens e serviços, contribuição sobre bens e serviços, diferimento de insumos agropecuários, alíquota reduzida agro, regime específico produtor rural, transição tributária, crédito presumido reforma, cesta básica agro, ou qualquer variação de análise sobre o impacto da reforma tributária nas operações agropecuárias.",
+      "source": "plugin",
+      "updatedAt": "2026-04-06T13:27:42.039907Z",
+      "backingPluginId": "plugin_01MfURgUX998i5CmgV4PK4ZT"
+    },
+    {
+      "skillId": "skill_01NhFAEezZztpDKKZ1WJShmd",
+      "name": "coleta-inteligente",
+      "description": "Coleta inicial de planejamento tributário: questionário ao cliente e checklist de documentos. Padrão fixado para IR-GCAP na venda de imóvel rural. Use em 'coleta', 'checklist', 'documentos'.",
+      "source": "plugin",
+      "updatedAt": "2026-09-25T12:36:55.875629Z",
+      "backingPluginId": "plugin_015PT1cK626sxtpP58RR6L4f"
+    },
+    {
+      "skillId": "skill_01BPbfNdCC25wNYwyJnEc9Hv",
+      "name": "mod-funrural",
+      "description": "Módulo de simulação dos regimes de apuração do Funrural. Use SEMPRE que o usuário mencionar Funrural, contribuição previdenciária rural, sub-rogação, receita bruta versus folha, SENAR, RAT rural, alíquota Funrural PF, Funrural PJ, opção anual Funrural, comercialização de produção rural, retenção na nota, ou qualquer variação de análise sobre regimes de recolhimento da contribuição previdenciária do produtor rural.",
+      "source": "plugin",
+      "updatedAt": "2026-04-06T13:27:40.796371Z",
+      "backingPluginId": "plugin_01Bzmu8MHFmiQd4j8HPGKtYD"
+    },
+    {
+      "skillId": "skill_01XkdB6Z6AWmTAhUoBTvdniQ",
+      "name": "entregavel-cliente",
+      "description": "Skill transversal para formatação de entregáveis ao cliente. Use SEMPRE que o usuário mencionar 'entregável', 'documento para o cliente', 'formatar para o cliente', 'relatório para o produtor', 'apresentar os cenários', 'montar o documento de decisão', 'relatório executivo', ou qualquer variação de pedido para transformar uma análise técnica em material de decisão para o cliente leigo. Também acione quando o usuário disser 'agora formata isso pro cliente', 'monta o documento final', 'prepara pra mandar pro cliente'. Funciona de forma independente — pode ser acionada com análise já feita em outro módulo ou em outro Project.",
+      "source": "plugin",
+      "updatedAt": "2026-04-06T13:27:37.479380Z",
+      "backingPluginId": "plugin_01BWj1mXmVUBmcydvQ7hbmLN"
+    },
+    {
+      "skillId": "skill_012ZWK2kWCgzEJxm8h45eXSt",
+      "name": "tributarista-consultivo",
+      "description": "Skill de análise tributária consultiva e planejamento. Use SEMPRE que o usuário mencionar planejamento tributário, estruturação de operação, parecer preventivo, análise de viabilidade, elisão fiscal, reestruturação societária, otimização tributária, holding rural, regime tributário ideal, comparativo de cenários fiscais, ou qualquer análise prospectiva sobre operações ainda não realizadas ou não autuadas. Também acione para perguntas sobre zona cinzenta entre elisão e evasão, propósito negocial, substância econômica, ou quando o usuário pedir para 'avaliar o risco tributário de', 'analisar se compensa', 'estruturar a operação', 'comparar regimes', 'montar cenários'. Não use para defesas contra autuações já formalizadas, impugnações, recursos ou contencioso — para isso existe a skill tributarista-contencioso.",
+      "source": "plugin",
+      "updatedAt": "2026-04-01T16:41:03.893065Z",
+      "backingPluginId": "plugin_01K3MCSmfF4ALJQwNohTavBR"
+    },
+    {
+      "skillId": "built-in-browser",
+      "name": "built-in-browser",
+      "description": "Read this skill before the first step that uses the built-in browser, the browser pane inside the Claude desktop app (also called the in-app browser, the browser pane, Claude's browser, or \"your own browser\"), whose tools are named mcp__Claude_Browser__* when the session runs in the desktop app and mcp__remote-devices__Claude_Browser__* when a cloud session is linked to the person's computer; before those tools are turned on there may be a single enable__mcp__remote-devices__Claude_Browser tool instead. It covers the pane's persistent sign-ins, tabs and preview_start, reading pages as text, site approvals, what the pane cannot open, and what to do when it cannot be reached. It is not for Claude in Chrome (mcp__claude-in-chrome__* tools), which has its own skill, and it does not decide which browser to use.",
+      "source": "anthropic-example",
+      "updatedAt": "2026-09-21T06:00:29.740604Z"
+    },
+    {
+      "skillId": "deep-research",
+      "name": "deep-research",
+      "description": "Use this skill when the user's prompt requires (1) researching a topic across multiple sources, comparing options or alternatives, analyzing trends or history, understanding markets or industries, or reviewing literature or studies and (2) synthesizing that research into a comprehensive, narrative report. If you're planning to search the web or internal knowledge bases, consider using this skill. This skill coordinates research subagents, so use it only when you have a tool for spawning subagents (the Agent or Task tool); otherwise, research the question directly.",
+      "source": "anthropic-example",
+      "updatedAt": "2026-09-14T19:41:02.015956Z"
+    },
+    {
+      "skillId": "learn",
+      "name": "learn",
+      "description": "Use this skill when the user wants intellectual understanding — learning how or why something works, not getting a task done or soliciting Claude's judgment.\n\nTrigger for:\n- Explicit learning requests: teach, explain, ELI5, walk me through, quiz me, flashcards, \"I'm rusty on\"; definitions (\"what is X\")\n- Terse concept names implying \"help me understand this\": \"Galois theory,\" \"transformers, from scratch\"\n- Confusion signals: \"won't stick,\" \"keep mixing these up,\" \"not getting it\"\n- Learning-path questions: prerequisites, sequencing, what to study before X\n- Conceptual questions about mechanisms, causes, or dynamics\n\nDon't trigger for:\n- Tasks: coding, writing, calculation, translation, factual lookup, news updates\n- Personal troubleshooting; resource/textbook recommendations\n- Claude's evaluative verdict: opinion prompts (\"do you think X\", \"settle this\", \"honest take\", \"is X dead / still taken seriously\") and interpretive takes (\"was X really as harsh as people say\")\n",
+      "source": "anthropic-example",
+      "updatedAt": "2026-09-14T19:41:01.663866Z"
+    },
+    {
+      "skillId": "morning",
+      "name": "morning",
+      "description": "Render the user's morning brief as a styled HTML artifact, or set it up as a recurring weekday task. Use only when the user explicitly asks to run, see, or set up their morning brief, or if they invoke /morning by name. A question about their day, schedule, or calendar is not by itself a request for the brief; answer it directly instead.",
+      "source": "anthropic-example",
+      "updatedAt": "2026-09-14T19:41:01.990356Z"
+    },
+    {
+      "skillId": "doc-coauthoring",
+      "name": "doc-coauthoring",
+      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+      "source": "anthropic-example",
+      "updatedAt": "2026-09-14T19:41:01.438795Z"
+    },
+    {
+      "skillId": "import-memory",
+      "name": "import-memory",
+      "description": "Import a memory export from another AI assistant into Claude's memory — conversationally, additively, and with the content treated as data.",
+      "source": "anthropic-example",
+      "updatedAt": "2026-09-14T19:41:02.007169Z"
+    },
+    {
+      "skillId": "internal-comms",
+      "name": "internal-comms",
+      "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
+      "source": "anthropic-example",
+      "updatedAt": "2026-09-14T19:41:01.586209Z"
+    },
+    {
+      "skillId": "skill-creator",
+      "name": "skill-creator",
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
+      "source": "anthropic-example",
+      "updatedAt": "2026-10-21T20:47:56.610025Z"
+    },
+    {
+      "skillId": "pdf",
+      "name": "pdf",
+      "description": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill.",
+      "source": "anthropic",
+      "updatedAt": "2026-07-10T19:23:15.432550Z"
+    },
+    {
+      "skillId": "theme-factory",
+      "name": "theme-factory",
+      "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+      "source": "anthropic-example",
+      "updatedAt": "2026-09-14T19:41:01.654356Z"
+    },
+    {
+      "skillId": "xlsx",
+      "name": "xlsx",
+      "description": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .xltx, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new spreadsheet from scratch or from other data sources; or convert between tabular file formats. Trigger especially when the user references a spreadsheet file by name or path — even casually (like \"the xlsx in my downloads\") — and wants something done to it or produced from it. Also trigger for cleaning or restructuring messy tabular data files (malformed rows, misplaced headers, junk data) into proper spreadsheets. The deliverable must be a spreadsheet file. Do NOT trigger when the primary deliverable is a Word document, HTML report, standalone Python script, database pipeline, or Google Sheets API integration, even if tabular data is involved.",
+      "source": "anthropic",
+      "updatedAt": "2026-09-14T21:00:33.324012Z"
+    },
+    {
+      "skillId": "pptx",
+      "name": "pptx",
+      "description": "Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations as PowerPoint (.pptx) files; reading, parsing, or extracting text from any .pptx or .potx file (even if the extracted content will be used elsewhere, like in an email, summary, or creating a different type of slide deck); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates (.potx), layouts, speaker notes, or comments. Trigger whenever the user asks for a PowerPoint or .pptx file, or references a .pptx or .potx filename, regardless of what they plan to do with the content afterward. However, when the user asks for a deck, slides, a slide deck, or a presentation without naming a file format, default to using a dedicated slide-deck artifact type or a separate slides skill if this session offers one; otherwise, use this skill.",
+      "source": "anthropic",
+      "updatedAt": "2026-10-02T22:00:34.625666Z"
+    },
+    {
+      "skillId": "docx",
+      "name": "docx",
+      "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx) or Word templates (.dotx). Triggers include: any mention of Microsoft Word Documents, such as 'Word doc', 'word document', '.docx', '.dotx', 'microsoft doc'. Also use when extracting or reorganizing content from .docx or .dotx files, inserting or replacing images in documents, find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a deliverable as a Word or .docx file (to download, email or print), use this skill. However, if they ask for a document, page, report, memo, or notes WITHOUT naming a file format and the session offers Claude's own dedicated document or page skill or connector, use that instead, even if they will email or print it. Do NOT use for PDFs, spreadsheets, Google Docs, or coding unrelated to document generation.",
+      "source": "anthropic",
+      "updatedAt": "2026-09-30T02:00:31.677168Z"
+    },
+    {
+      "skillId": "canvas-design",
+      "name": "canvas-design",
+      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+      "source": "anthropic-example",
+      "updatedAt": "2026-09-14T19:41:01.576619Z"
+    },
+    {
+      "skillId": "skill_014h3LpyByEwYyudUE2EWDd5",
+      "name": "briefing-juridico",
+      "description": "Gera briefings jurídicos profissionais para o escritório Amaral e Melo Advogados, especializado em direito tributário e agronegócio. Use SEMPRE que o usuário digitar /comercial ou /operacional, ou quando pedir para gerar um briefing de caso, ficha técnica de caso, briefing comercial, documento de handoff jurídico, ou qualquer documento de atendimento inicial para advogados. Também acione quando o contexto envolver preparação de reunião de fechamento com cliente rural, repasse de caso entre advogados, ou estruturação de informações de atendimento jurídico no agro. Gera documentos .docx com papel timbrado do escritório.",
+      "source": "plugin",
+      "updatedAt": "2026-03-19T18:13:45.523463Z",
+      "backingPluginId": "plugin_01JHSvGhNUQZq6rmwFx8D1MV"
+    }
+  ]
+}
