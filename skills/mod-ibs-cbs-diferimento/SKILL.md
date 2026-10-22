@@ -1,5 +1,5 @@
 ---
-name: mod-ibs-cbs-diferimento
+name: "mod-ibs-cbs-diferimento"
 description: "Módulo de análise da reforma tributária aplicada ao agronegócio. Use SEMPRE que o usuário mencionar IBS, CBS, reforma tributária, imposto sobre bens e serviços, contribuição sobre bens e serviços, diferimento de insumos agropecuários, alíquota reduzida agro, regime específico produtor rural, transição tributária, crédito presumido reforma, cesta básica agro, ou qualquer variação de análise sobre o impacto da reforma tributária nas operações agropecuárias."
 ---
 

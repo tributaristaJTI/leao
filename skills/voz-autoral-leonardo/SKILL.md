@@ -1,16 +1,6 @@
 ---
-name: voz-autoral-leonardo
-description: >
-  Aplica a voz autoral de Leonardo Amaral na redação de peças assinadas de fôlego: artigos
-  jurídicos, ensaios, papers, capítulos de livro, dissertações e textos para publicação (ConJur,
-  JOTA, periódicos, IBET). Use SEMPRE que o usuário pedir para "escrever/redigir/rascunhar um
-  artigo", "um paper", "um capítulo", "um texto para publicação", "um artigo para o ConJur/IBET",
-  ou trabalhar no livro em produção — e também ao revisar a voz de uma peça já escrita. A skill
-  carrega quatro registros (divulgação, opinião publicada, técnico-aplicado, científico-
-  dissertativo); selecione o registro pela peça e leia o reference correspondente antes de
-  escrever. NÃO use para post de LinkedIn, mensagem de WhatsApp, texto institucional ou qualquer
-  comunicação de marca — isso é da skill marca-raro. O sinal distintivo: peça autoral assinada e
-  argumentativa (aqui) versus comunicação de marca curta (marca-raro).
+name: "voz-autoral-leonardo"
+description: "Aplica a voz autoral de Leonardo Amaral na redação de peças assinadas de fôlego: artigos jurídicos, ensaios, papers, capítulos de livro, dissertações e textos para publicação (ConJur, JOTA, periódicos, IBET). Use SEMPRE que o usuário pedir para \"escrever/redigir/rascunhar um artigo\", \"um paper\", \"um capítulo\", \"um texto para publicação\", \"um artigo para o ConJur/IBET\", ou trabalhar no livro em produção — e também ao revisar a voz de uma peça já escrita. A skill carrega quatro registros (divulgação, opinião publicada, técnico-aplicado, científico-dissertativo); selecione o registro pela peça e leia o reference correspondente antes de escrever. NÃO use para post de LinkedIn, mensagem de WhatsApp, texto institucional ou qualquer comunicação de marca — isso é da skill marca-raro. O sinal distintivo: peça autoral assinada e argumentativa (aqui) versus comunicação de marca curta (marca-raro)."
 ---
 
 # Voz Autoral — Leonardo Amaral
