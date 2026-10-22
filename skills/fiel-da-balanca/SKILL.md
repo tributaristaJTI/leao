@@ -151,3 +151,7 @@ Ler `references/caso-comag.md` sempre que: (a) o arranjo analisado envolver coop
 **Exemplo 2** — Usuário: "/tese-mercado — tem um fundo oferecendo barter estruturado com trava cambial pros produtores aqui da região" → Pipeline completo, saída Tese de Mercado.
 
 **Exemplo 3 (não acionar)** — Usuário: "Quero estruturar a holding rural do cliente Fulano" → tributarista-consultivo (operação própria do cliente, sem arranjo multiator de mercado).
+
+## Conferência de citação
+
+Dispositivo legal, súmula, julgado, alíquota ou prazo só entra no texto depois de conferido no conector Jusratio ou em fonte oficial consolidada, na própria sessão. O que não for conferido fica fora do texto ou entra marcado [A CONFERIR: fonte]. Memória, arquivo de referência embarcado e trecho de resultado de busca servem para localizar, nunca para afirmar.

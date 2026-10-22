@@ -154,4 +154,8 @@ Toda simulação deve listar as premissas adotadas:
 
 ## Referência legislativa
 
-Consultar `ref-ir-rural.md` para tabelas de IRPF e IRPJ, e `ref-funrural-ibs.md` para alíquotas de Funrural e contribuições previdenciárias.
+Tabelas de IRPF e IRPJ, alíquotas de Funrural e contribuições previdenciárias, dispositivos e prazos são conferidos no conector Jusratio ou na fonte oficial consolidada antes de entrar no cálculo ou no texto. Os arquivos `ref-ir-rural.md` e `ref-funrural-ibs.md` do projeto servem só como mapa de onde procurar; não valem como fonte.
+
+## Conferência de citação
+
+Dispositivo legal, súmula, julgado, alíquota ou prazo só entra no texto depois de conferido no conector Jusratio ou em fonte oficial consolidada, na própria sessão. O que não for conferido fica fora do texto ou entra marcado [A CONFERIR: fonte]. Memória, arquivo de referência embarcado e trecho de resultado de busca servem para localizar, nunca para afirmar.

@@ -129,3 +129,7 @@ Reverifique a cada uso; ao confirmar mudança, atualize esta seção:
 - **crivo-do-leao:** revisão independente recomendada em alto valor (o teste adversarial da Etapa 6 não o substitui — verificações de natureza distinta).
 - **destila:** agravo provido → destilar a tese vencedora (óbice × técnica × relator) para o acervo.
 - **ponto-do-leao:** registrar a sessão ao concluir a entrega.
+
+## Conferência de citação
+
+Dispositivo legal, súmula, julgado, alíquota ou prazo só entra no texto depois de conferido no conector Jusratio ou em fonte oficial consolidada, na própria sessão. O que não for conferido fica fora do texto ou entra marcado [A CONFERIR: fonte]. Memória, arquivo de referência embarcado e trecho de resultado de busca servem para localizar, nunca para afirmar.

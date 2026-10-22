@@ -93,10 +93,7 @@ Usar quando couber — nunca forçar:
 
 ## Anti-Padrões de Conteúdo
 
-- Linguagem genérica de consultoria (sinergia, alavancagem, disruptivo)
-- Reformular o que o produtor já sabe como se fosse insight
-- Disclaimers jurídicos óbvios no conteúdo de marca
-- Excesso de bullet points quando um parágrafo resolve
+- As proibições globais de estilo (consultoria e coaching, reformulação como insight, disclaimer óbvio, excesso de tópicos e as demais): lista completa, com exemplos e testes, na skill `voz-autoral-leonardo`, seção "Proibições globais de estilo"
 - Posts longos demais (LinkedIn mobile = atenção curta)
 
 ## Recursos Adicionais

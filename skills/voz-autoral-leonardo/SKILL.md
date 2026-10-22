@@ -46,6 +46,31 @@ Estes cinco marcadores atravessam o corpus inteiro, do artigo de divulgação à
 - **Não deixar termo técnico sem tradução quando o interlocutor for o produtor.** No registro de divulgação, todo termo técnico ganha explicação entre parênteses: "decadência (perda do direito da Receita de formalizar a cobrança)".
 - **Não fechar neutro nos registros leves.** Divulgação e opinião publicada fecham com apelo, projeção de consequência ("judicialização", "insegurança jurídica", "dor de cabeça") ou provocação de efeito.
 
+## Proibições globais de estilo
+
+Fonte única das proibições de estilo do ecossistema. As preferências de usuário carregam só o resumo e remetem a esta seção; as outras skills que precisem da lista remetem para cá em vez de repeti-la. Valem em todos os registros e em qualquer texto final da casa, salvo a exceção indicada no próprio item. Em divergência com outra fonte, vale esta seção.
+
+| # | Proibição | Exemplo do que cai | Teste |
+|---|---|---|---|
+| 1 | "Não é só X, é Y", em qualquer variação ("mais do que X, Y"; "X? Não. Y.") | "Não é só planejamento tributário, é uma decisão de família." | Se a frase nega o que ninguém afirmou para valorizar o segundo termo, afirmar direto o segundo termo. |
+| 2 | Tríade enfática mais de uma vez por texto, ou em série | "clareza, firmeza e coragem" e, dois parágrafos depois, "rápido, seguro e eficiente" | Contar as enumerações de três termos com função de ênfase; da segunda em diante, cortar um termo ou desdobrar em frase. |
+| 3 | Pergunta retórica como parágrafo solto ou em série | "E o produtor? Fica com a conta." | Regras e exceções de borda na seção "Pergunta retórica", abaixo. O gancho da primeira linha de post de LinkedIn é exceção regida pela `marca-raro`. |
+| 4 | Citação de terceiro no fecho | Encerrar com frase de Sêneca ou de ministro do STF | Se a última frase é de outra pessoa, o texto não fechou: fechar com a posição do autor. |
+| 5 | Travessão em texto final, inclusive o parentético | "O diferimento, que parecia neutro, virou custo" escrito com travessões | Buscar travessão e meia-risca no texto final: o resultado tem de ser zero. Substituição na seção "Ritmo e sintaxe". |
+| 6 | Muleta de transição vazia | "É importante ressaltar que" | Cortar a muleta e ver se a frase perde informação; se não perde, a muleta sai. Lista na seção "Vestígio de máquina". |
+| 7 | Adjetivo inflado sem medida, e empilhamento de adjetivos | "impacto significativo"; "solução robusta, moderna e eficiente" | Trocar pela medida ou pelo motivo; sem medida, dizer que o dado não existe. |
+| 8 | Fecho de bandeja | "garantindo mais segurança jurídica ao contribuinte" | Se o fecho cabe em qualquer texto sobre qualquer tema, reescrever com a consequência concreta. Detalhe na seção "Vestígio de máquina". |
+| 9 | Gerúndio que afirma consequência | "A lei previu o diferimento, garantindo neutralidade ao produtor" | Se o gerúndio aceita troca por "o que garante" sem perda de sentido, reescrever. Detalhe na seção "Ritmo e sintaxe". |
+| 10 | Linguagem genérica de consultoria ou de coaching, e clichê de palestra | "sinergia", "alavancagem", "disruptivo", "ecossistema de stakeholders", "pensar fora da caixa", "na ponta do lápis", "saia da zona de conforto" | Se a palavra cabe em apresentação de qualquer setor, trocar pelo termo concreto do agro ou do direito. |
+| 11 | Filosofia abstrata sem cena concreta | Parágrafo sobre "o valor do planejamento" sem produtor, safra, número ou dispositivo | Procurar no parágrafo um fato, um número ou uma pessoa; se não houver, ancorar (marcador 4) ou cortar. |
+| 12 | Tom paternalista, arrogante, panfletário ou sensacionalista | "O produtor precisa entender que..."; "o Fisco quer quebrar o agro" | Ler duas vezes, como o leitor mais qualificado e como o mais leigo: se um se sentir tutelado ou o outro alarmado sem dado, reescrever. |
+| 13 | Falsa neutralidade quando o texto pede posição | "Há bons argumentos dos dois lados", sem dizer de que lado o autor está | Se o leitor termina sem saber o que o autor sustenta ou recomenda, falta a tese (marcador 1). |
+| 14 | Excesso de tópicos quando um parágrafo resolve | Resposta inteira em tópicos de três palavras | Se os tópicos, ligados por "porque" ou "portanto", formam um parágrafo, escrever o parágrafo. |
+| 15 | Reformular o que o leitor acabou de dizer como se fosse insight | Devolver a pergunta do cliente reescrita como descoberta | Se a frase não acrescenta fato, consequência ou posição ao que o leitor já disse, cortar. |
+| 16 | Disclaimer jurídico óbvio para quem é do ramo | "Recomenda-se consultar um advogado" em texto para advogado | Se o destinatário já sabe o que o aviso diz, o aviso sai. |
+
+Na conversa com Leonardo, vale ainda não abrir a resposta com elogio ("Ótima pergunta!").
+
 ## Pergunta retórica (regra transversal)
 
 No corpo do texto valem, em todos os registros, as proibições globais: nenhuma pergunta retórica como parágrafo solto para criar tensão e nenhuma série de duas ou mais perguntas seguidas. A forma interrogativa é admitida em dois pontos de borda, porque são marcadores colhidos do corpus: no título, nos registros de divulgação e de opinião publicada; e na linha de fecho, apenas no registro de divulgação, como uma das opções de provocação, no máximo uma pergunta. Fora dessas bordas, reescrever como afirmação.
@@ -96,7 +121,7 @@ Esta skill cuida **apenas da voz**. A produção do artigo (arquitetura argument
 
 ## Relação com o documento de equipe
 
-O documento "Regras e Proibições de Escrita — Voz Leonardo Amaral" (uso interno da equipe e da agência) é derivado desta skill, da `marca-raro` e das userPreferences. Esta skill e as userPreferences são as fontes canônicas; o documento é a exportação humana delas. Divergência entre o documento e as fontes se resolve a favor das fontes e gera correção do documento na revisão seguinte, nunca o contrário.
+O documento "Regras e Proibições de Escrita — Voz Leonardo Amaral" (uso interno da equipe e da agência) é derivado desta skill, da `marca-raro` e das userPreferences. Esta skill e as userPreferences são as fontes canônicas, e a lista de proibições de estilo mora só na seção "Proibições globais de estilo" desta skill; o documento é a exportação humana delas. Divergência entre o documento e as fontes se resolve a favor das fontes e gera correção do documento na revisão seguinte, nunca o contrário.
 
 ## Recursos
 

@@ -18,6 +18,7 @@ Montar pauta estruturada para reunião do Coração do Leão (governança de só
 **Google Calendar**: Quando é a próxima reunião de sócios
 **Gmail**: Temas pendentes entre sócios, decisões adiadas
 **Notion**: Ações pendentes de reuniões anteriores, projetos em andamento
+**Monday**: Quadros do Monday com ações pendentes e status de casos e projetos
 
 Se fontes não estiverem conectadas, perguntar a Leonardo quais temas precisa incluir.
 

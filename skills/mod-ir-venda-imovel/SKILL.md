@@ -143,4 +143,8 @@ Em TODA análise, verificar e reportar:
 
 ## Referência legislativa
 
-Consultar o arquivo `ref-ir-rural.md` no diretório de referências do projeto para tabelas completas de alíquotas, fatores de redução e dispositivos legais.
+Alíquotas, fatores de redução, dispositivos legais e prazos são conferidos no conector Jusratio ou na fonte oficial consolidada antes de entrar no cálculo ou no texto. O arquivo `ref-ir-rural.md` do projeto serve só como mapa de onde procurar (quais tabelas, alíquotas e dispositivos conferir); não vale como fonte.
+
+## Conferência de citação
+
+Dispositivo legal, súmula, julgado, alíquota ou prazo só entra no texto depois de conferido no conector Jusratio ou em fonte oficial consolidada, na própria sessão. O que não for conferido fica fora do texto ou entra marcado [A CONFERIR: fonte]. Memória, arquivo de referência embarcado e trecho de resultado de busca servem para localizar, nunca para afirmar.

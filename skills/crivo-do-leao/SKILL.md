@@ -173,3 +173,7 @@ O Crivo não substitui a revisão humana em aspectos que exigem juízo de valor,
 **Curadoria de superação em expansão.** O Jusratio remove precedentes superados do STF/STJ que já mapeou, mas a curadoria não é completa. Superação recente e não mapeada pode passar como verde. Para tese que depende de precedente vivo, confirme a vigência do entendimento, não só a existência do acórdão.
 
 **O Crivo é acionado sob demanda, não é portão automático.** Ele roda quando alguém digita /crivo ou pede revisão. Documento produzido e enviado sem acionamento não passou por verificação nenhuma — e a skill não tem como saber disso. Enquanto o acionamento depender de memória individual, o Crivo é hábito de quem lembra, não controle do escritório.
+
+## Conferência de citação
+
+Dispositivo legal, súmula, julgado, alíquota ou prazo só entra no texto depois de conferido no conector Jusratio ou em fonte oficial consolidada, na própria sessão. O que não for conferido fica fora do texto ou entra marcado [A CONFERIR: fonte]. Memória, arquivo de referência embarcado e trecho de resultado de busca servem para localizar, nunca para afirmar.

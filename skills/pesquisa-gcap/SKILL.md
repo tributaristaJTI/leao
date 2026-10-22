@@ -78,3 +78,7 @@ O dossiê de cada caso pode trazer precedentes já conferidos em rodadas anterio
 ## Guard-rails
 
 Não redige parecer, proposta ou peça. Não grava no Acervo nem no dossiê. Não move nem cria documento fora da `_Entrada/`. Não cita o que não leu na rodada. Não decide a rota do caso: entrega o que a rota precisa saber.
+
+## Conferência de citação
+
+Dispositivo legal, súmula, julgado, alíquota ou prazo só entra no texto depois de conferido no conector Jusratio ou em fonte oficial consolidada, na própria sessão. O que não for conferido fica fora do texto ou entra marcado [A CONFERIR: fonte]. Memória, arquivo de referência embarcado e trecho de resultado de busca servem para localizar, nunca para afirmar.

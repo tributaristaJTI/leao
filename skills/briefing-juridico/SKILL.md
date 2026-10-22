@@ -9,7 +9,11 @@ Skill para transformar informações brutas de atendimentos iniciais em document
 
 ## Dependências
 
-Esta skill gera documentos .docx. Antes de gerar qualquer documento, leia a skill `docx` em `/mnt/skills/public/docx/SKILL.md` para seguir as melhores práticas de criação de arquivos Word.
+Para formatação do documento, leia a skill `layout-aem` (localizar o SKILL.md com
+`find / -path '*/layout-aem/SKILL.md' 2>/dev/null | head -1`; em sessões claude.ai fica em
+`/mnt/skills/user/layout-aem/SKILL.md`) antes de gerar o .docx.
+Use o código-base, assets e regras de formatação de lá.
+Não defina cores, fontes ou margens localmente.
 
 ## Conhecimento de domínio
 
@@ -72,33 +76,23 @@ Após reunir informações suficientes, gerar o documento. Se o usuário indicar
 
 ## Geração do documento .docx
 
-### Template do escritório
-
-O template do papel timbrado está em `assets/template-timbrado.docx` dentro do diretório desta skill. Use-o SEMPRE como base para os documentos gerados. O fluxo é: copiar o template para o diretório de trabalho → descompactar (é um ZIP) → substituir o conteúdo do `word/document.xml` com o briefing formatado em WordprocessingML → reempacotar o ZIP como .docx. Isso preserva o cabeçalho com logo "Amaral & Melo — Jurídico no Agro" (selo 20 anos), rodapé com endereços das unidades Jataí e Rio Verde, estilos, fontes e numeração de página.
-
-Se por algum motivo o template não for encontrado, gere o .docx do zero seguindo as instruções da skill `docx`, aplicando a formatação abaixo.
-
-### Configurações de página (quando usando template)
-
-Não alterar: A4 (11906 × 16838 twips), margens topo=2127, direita=720, inferior=1418, esquerda=720. Largura útil para conteúdo: ~10466 twips.
-
-### Formatação do conteúdo
-
-Fonte Arial em todo o documento. Títulos de seção: Arial Bold 12pt, cor azul escuro (#1B3A5C), com linha dourada (#C4972A) abaixo como separador. Corpo: Arial Regular 11pt, preto, justificado. Tabelas: largura total (~10466 DXA), coluna de rótulos com fundo cinza (#F0F0F0), bordas cinza claro (#CCCCCC). Campos pendentes: itálico, cor cinza (#999999), formato "[A CONFIRMAR — descrição]".
+Identidade visual, papel timbrado, página, fontes, cores e caixas vêm da skill `layout-aem`, no **Modo Interno** (o modo que ela define para briefings e fichas técnicas). Esta skill define só o conteúdo e a ordem das seções.
 
 ### Título do documento (centralizado)
 
-Para `/comercial`: "BRIEFING COMERCIAL" em Arial Bold 14pt azul escuro, seguido do nome do cliente, data e "CONFIDENCIAL — USO INTERNO".
+Para `/comercial`: "BRIEFING COMERCIAL", seguido do nome do cliente, data e "CONFIDENCIAL — USO INTERNO".
 
-Para `/operacional`: "FICHA TÉCNICA DE CASO" no mesmo formato.
+Para `/operacional`: "FICHA TÉCNICA DE CASO", no mesmo formato.
 
 ### Elementos especiais
 
-Seções de alerta ("Alertas para a Reunião" ou "Riscos e Contingências"): caixa com fundo amarelo claro (#FFF9E6), borda esquerda grossa laranja (#E67E22), título "⚠ PONTOS DE ATENÇÃO" em laranja.
+Seções de alerta ("Alertas para a Reunião" ou "Riscos e Contingências"): caixa de destaque da `layout-aem` (helper `caixaDestaque`), com o título "⚠ PONTOS DE ATENÇÃO".
 
-Seção "Prazos Críticos" (operacional): tabela formatada com datas em destaque.
+Seção "Prazos Críticos" (operacional): tabela da `layout-aem` (helper `tabelaAeM`), com as datas em destaque.
 
 Seção "Próximos Passos": lista numerada com campos para responsável e prazo.
+
+Campos pendentes: formato "[A CONFIRMAR — descrição]".
 
 ## Diretrizes gerais
 
@@ -112,4 +106,4 @@ Seção "Próximos Passos": lista numerada com campos para responsável e prazo.
 
 **Formatação de valores**: Padrão brasileiro (R$ 1.000.000,00). Áreas em hectares. Produções em sacas ou toneladas conforme o produto.
 
-**Lacunas**: Preencher com "[A CONFIRMAR — descrição do que falta]" em itálico cinza. Nunca deixar em branco ou inventar.
+**Lacunas**: Preencher com "[A CONFIRMAR — descrição do que falta]". Nunca deixar em branco ou inventar.

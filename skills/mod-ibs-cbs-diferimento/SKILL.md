@@ -148,4 +148,8 @@ Posicionar-se sobre:
 
 ## Referência legislativa
 
-Consultar `ref-funrural-ibs.md` para dispositivos da reforma tributária e alíquotas projetadas.
+Dispositivos da reforma tributária, alíquotas projetadas e prazos são conferidos no conector Jusratio ou na fonte oficial consolidada antes de entrar no cálculo ou no texto. O arquivo `ref-funrural-ibs.md` do projeto serve só como mapa de onde procurar; não vale como fonte.
+
+## Conferência de citação
+
+Dispositivo legal, súmula, julgado, alíquota ou prazo só entra no texto depois de conferido no conector Jusratio ou em fonte oficial consolidada, na própria sessão. O que não for conferido fica fora do texto ou entra marcado [A CONFERIR: fonte]. Memória, arquivo de referência embarcado e trecho de resultado de busca servem para localizar, nunca para afirmar.

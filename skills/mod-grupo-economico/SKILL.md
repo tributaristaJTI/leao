@@ -164,7 +164,11 @@ Posicionar-se com clareza sobre:
 
 ## Referência legislativa
 
-Consultar os três arquivos de referência do projeto:
-- `ref-ir-rural.md` para tributação PF e PJ
-- `ref-funrural-ibs.md` para contribuições previdenciárias e reforma tributária
-- `ref-grupo-economico.md` para confusão patrimonial, responsabilidade solidária, holding rural e ITCMD
+Dispositivos, alíquotas e prazos são conferidos no conector Jusratio ou na fonte oficial consolidada antes de entrar no cálculo ou no texto. Os três arquivos de referência do projeto servem só como mapa de onde procurar; não valem como fonte:
+- `ref-ir-rural.md`: tributação PF e PJ
+- `ref-funrural-ibs.md`: contribuições previdenciárias e reforma tributária
+- `ref-grupo-economico.md`: confusão patrimonial, responsabilidade solidária, holding rural e ITCMD
+
+## Conferência de citação
+
+Dispositivo legal, súmula, julgado, alíquota ou prazo só entra no texto depois de conferido no conector Jusratio ou em fonte oficial consolidada, na própria sessão. O que não for conferido fica fora do texto ou entra marcado [A CONFERIR: fonte]. Memória, arquivo de referência embarcado e trecho de resultado de busca servem para localizar, nunca para afirmar.

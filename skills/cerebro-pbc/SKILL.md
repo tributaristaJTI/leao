@@ -16,8 +16,8 @@ Percurso = 4 planos: S1 literalidade → S2 proposições isoladas → S3 signif
 ## Operação — dois pontos de entrada
 
 A skill estrutura o raciocínio; NÃO troca o modelo (roteamento é manual).
-- **completo** (padrão): Base → Bloco 1 → Bloco 2 → arquivamento, numa passada (ideal no Fable). Estudo pontual.
-- **dividido** (varredura de muitos dispositivos): `parar-após-extração` devolve o artefato destilado; `retomar` recebe o artefato e roda Bloco 2 → arquivamento (chat novo de Fable, mesmo Project).
+- **completo** (padrão): Base → Bloco 1 → Bloco 2 → arquivamento, numa passada (ideal no modelo de maior capacidade disponível). Estudo pontual.
+- **dividido** (varredura de muitos dispositivos): `parar-após-extração` devolve o artefato destilado; `retomar` recebe o artefato e roda Bloco 2 → arquivamento (chat novo com o modelo de maior capacidade disponível, mesmo Project).
 
 Sem indicação, assuma `completo`.
 
@@ -35,7 +35,7 @@ S1 + camada mecânica de S2. Matéria-prima; não decide.
 
 **Artefato destilado (saída):** (1) índice de enunciados + localizador; (2) glossário; (3) bifurcações candidatas marcadas.
 
-## Bloco 2 — Construção (Fable, recursivo)
+## Bloco 2 — Construção (modelo de maior capacidade disponível, recursivo)
 
 Roda S2-bifurcações + S3 + S4 como um só raciocínio, com o corpus em contexto; volta ao texto/Bloco 1 quando preciso.
 - **S2-bifurcações:** construir as significações concorrentes de cada termo marcado, com fundamento (distinguir conceito de direito privado absorvido vs. autônomo — arts. 109/110 CTN).
@@ -58,3 +58,7 @@ Acionar a `destila` com a tese vencedora + bifurcações → nota canônica. A `
 
 Ordem: (0) o que o acervo resolve → (1) bifurcações (semânticas + de articulação) → (2) RMITs concorrentes + tabela de divergência → (3) ranqueamento por defensabilidade → (4) zona cinzenta.
 Parecer: denso, citação completa. Didático: cada etapa explicada, exemplos do agro.
+
+## Conferência de citação
+
+Dispositivo legal, súmula, julgado, alíquota ou prazo só entra no texto depois de conferido no conector Jusratio ou em fonte oficial consolidada, na própria sessão. O que não for conferido fica fora do texto ou entra marcado [A CONFERIR: fonte]. Memória, arquivo de referência embarcado e trecho de resultado de busca servem para localizar, nunca para afirmar.

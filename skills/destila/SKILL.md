@@ -19,7 +19,7 @@ O destila **não julga mérito nem decide o que merece ser arquivado** — isso 
 
 ## Pré-requisito
 
-A skill grava no Google Drive. O conector do Google Drive precisa estar ativo na sessão.
+A skill grava no Google Drive e registra a nota no catálogo do Notion. O conector do Google Drive precisa estar ativo na sessão; o do Notion, para a etapa do catálogo.
 
 ## Âncoras fixas do acervo — navegar sempre por ID
 
@@ -94,7 +94,8 @@ Encerre com pergunta direta: **"Confirma ou ajusta?"**
 1. Resolver a pasta da matéria por `parentId` a partir da raiz-âncora. Se a estrutura não existir, ofereça criá-la antes de gravar.
 2. Nome do arquivo: derivado do `tema`, minúsculo, com hífens, sem acento, descritivo (ex.: `parceria-rural-simulada-familiares-interpostas.md`).
 3. Criar o `.md` na pasta da matéria com `disableConversionToGoogleType=true` e `contentMimeType='text/markdown'` — sem isso o Drive converte o arquivo em Google Doc. O corpo completo é montado aqui, uma única vez, com os ajustes da Etapa 6 aplicados.
-4. Confirmar ao usuário o caminho final onde a nota foi gravada.
+4. Registrar a nota no catálogo, no mesmo passo da gravação: uma linha na base "Catálogo AeM" do Notion, pelo protocolo da skill `arquivo-do-leao` (Área `Acervo AeM`, Frente `acervo`, com `ID Drive` e `Link` da nota recém-gravada). Se o Notion não estiver disponível, relatar a falha em uma linha na confirmação; a nota gravada no Drive vale.
+5. Confirmar ao usuário o caminho final onde a nota foi gravada e a linha do catálogo.
 
 ### Etapa 8 — Termo novo aprovado entra no vocabulário na mesma sessão
 Se o usuário aprovou termo novo na Etapa 6, ele **não fica pendente para a próxima consolidação**: gravar o aditivo `_vocabulario-termos-novos.md` atualizado na mesma resposta — termo, família, data de aprovação, justificativa de por que nenhum termo existente cobria o eixo, notas que o usam — e rotacionar a versão anterior conforme a governança de arquivos abaixo. Termo aprovado que não é escrito na mesma sessão é termo que a próxima sessão reinventa com outro nome.
@@ -144,3 +145,7 @@ A separação durável/volátil é heurística, não infalível. O usuário deve
 A skill não decide o que merece ser arquivado. Ela formaliza o que o usuário mandou destilar.
 
 A cópia em `references/esquema-nota-canonica.md` é molde estrutural de emergência, com vocabulário datado de 08/07/2026. Ela não é atualizada a cada decisão de vocabulário, e não deve ser: a fonte é o Drive. Quando houver revisão do esquema, consolidar o aditivo dentro do `_esquema-nota-canonica.md` da raiz — nunca dentro do pacote.
+
+## Conferência de citação
+
+Dispositivo legal, súmula, julgado, alíquota ou prazo só entra no texto depois de conferido no conector Jusratio ou em fonte oficial consolidada, na própria sessão. O que não for conferido fica fora do texto ou entra marcado [A CONFERIR: fonte]. Memória, arquivo de referência embarcado e trecho de resultado de busca servem para localizar, nunca para afirmar.

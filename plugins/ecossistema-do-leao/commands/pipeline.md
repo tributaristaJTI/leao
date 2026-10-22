@@ -8,7 +8,7 @@ Gerar visão consolidada do pipeline comercial da Amaral e Melo Advogados e da A
 
 ## Instruções
 
-Como os dados são por input manual nesta fase, perguntar a Leonardo os números atuais se não forem fornecidos. Estruturar o output independentemente.
+Ler os quadros do Monday pelo conector como fonte dos números do funil, das propostas, dos fechamentos e das indicações. O que não estiver no Monday, ou se o conector não estiver disponível, perguntar a Leonardo. Estruturar o output independentemente.
 
 ## Output
 

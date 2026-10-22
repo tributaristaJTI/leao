@@ -24,6 +24,9 @@ Gerar o briefing matinal de Leonardo Amaral como CEO/fundador da Amaral e Melo e
 - Projetos com prazo próximo
 - Decisões pendentes de governança
 
+**Monday (se conectado):**
+- Quadros do Monday: tarefas, prazos e pendências de casos e projetos, inclusive as atribuídas a Leonardo e aos sócios
+
 **Se fontes não estiverem conectadas:**
 - Perguntar diretamente o que Leonardo tem na agenda e quais são as pendências
 - Estruturar o output mesmo com informação parcial

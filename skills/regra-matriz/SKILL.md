@@ -239,3 +239,7 @@ Descrição concisa. Fundamento legal quando aplicável. Recomendação prática
 ## Posições consolidadas (Posição LA) — Referência
 
 Para mapear posições consolidadas de Leonardo Amaral sobre temas recorrentes, consultar, em IBS/CBS, o arquivo de estado `posicoes-la-ibs-cbs.md` do project Especialista Reforma Tributária (knowledge do project; casa canônica no Drive, pasta ID `1naGorhPKOPi3zR14aIo6TNEGPsRaRo98`) e, nas demais matérias, o Acervo AeM alimentado pela `destila` (Drive, ID `1V4xYyffyXXT7lSY2i51tVd7l1P5xIGIh`). Esta skill não carrega cópia própria das posições: fonte única (A-12, 2026-08-29). Estas posições devem ser referenciadas em S4 quando o tema cruzar com a análise, mas não substituem o percurso analítico.
+
+## Conferência de citação
+
+Dispositivo legal, súmula, julgado, alíquota ou prazo só entra no texto depois de conferido no conector Jusratio ou em fonte oficial consolidada, na própria sessão. O que não for conferido fica fora do texto ou entra marcado [A CONFERIR: fonte]. Memória, arquivo de referência embarcado e trecho de resultado de busca servem para localizar, nunca para afirmar.

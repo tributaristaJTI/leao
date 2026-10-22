@@ -22,7 +22,7 @@ Verificação de dispositivos e precedentes segue o roteamento de motores da bat
 
 Fontes de critério (lista fechada — não inventar critérios novos):
 
-1. Anti-padrões globais das userPreferences: "não é só X, é Y" em qualquer variação; tríades enfáticas em série; perguntas retóricas empilhadas ou como parágrafo solto; linguagem de coaching; em-dash parentético; encerramento com citação de terceiro; "pensar fora da caixa", "na ponta do lápis"; empilhamento de adjetivos; filosofia abstrata sem cena concreta; tom paternalista, arrogante, panfletário ou sensacionalista; falsa neutralidade quando o texto pede posição.
+1. Proibições globais de estilo: a lista completa, com exemplos e testes, está na skill `voz-autoral-leonardo`, seção "Proibições globais de estilo" (ler como referência de critério, **não executar** a skill).
 2. Critérios de voz da skill `marca-raro` (DNA de marca) — ler como referência de critério, **não executar** a skill.
 
 Saída: lista de ocorrências com **localização exata (frase transcrita)** — nunca juízo genérico de "tom inadequado".

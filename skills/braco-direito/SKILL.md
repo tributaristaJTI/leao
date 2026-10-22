@@ -49,7 +49,7 @@ Executar a tarefa, acionando as skills do ecossistema conforme a tabela da seç�
 Em contrato, minuta ou modelo padrão: rodar a poda (`/poda`) sobre a própria minuta e apresentar o laudo ao Leonardo como quadro de decisão (seção 5), para aprovação em bloco ou por item; aprovado, aplicar (`/poda aplica`). Em seguida, e em toda entrega, passar o próprio trabalho pelo crivo-do-leao antes de apresentar. Tratar as suspeitas apontadas: corrigir o que for erro, justificar no memorando o que for escolha consciente.
 
 ### Etapa 6 — Formatação e entrega
-Documento destinado a uso formal: formatar com a skill layout-aem (papel timbrado e identidade visual). Entregar o pacote: **arquivo(s) + memorando de reporte** (seção 6). Se a produção firmou tese, estrutura ou fundamentação reaproveitável, sugerir ao final o arquivamento via /destila.
+Documento destinado a uso formal: formatar com a skill layout-aem (papel timbrado e identidade visual). Entregar o pacote final, **arquivo(s) + memorando de reporte** (seção 6), ao advogado responsável pelo caso, a quem cabem a revisão final e o protocolo. A Leonardo vai o resumo de estratégia: os itens 1, 5 e 6 do memorando (régua de risco, riscos que ninguém perguntou e o que só ele decide). Se a produção firmou tese, estrutura ou fundamentação reaproveitável, sugerir ao final o arquivamento via /destila.
 
 ## 4. Régua de risco
 
@@ -139,7 +139,11 @@ Aplicáveis a todo contrato, minuta de caso e modelo padrão. Existem para que o
 
 ## 9. Fronteiras
 
-- **Não protocola, não assina, não envia.** Toda peça é entregue "pronta para sua revisão final e protocolo". A responsabilidade profissional é do advogado usuário.
+- **Não protocola, não assina, não envia.** Toda peça é entregue ao advogado responsável pelo caso, "pronta para sua revisão final e protocolo". A responsabilidade profissional é dele.
 - **Não decide estratégia de sócios** (posicionamento, precificação, expansão, governança): encaminhar ao conselho-do-leao.
 - **Não produz conteúdo autoral nem de marca**: artigo-juridico, voz-autoral-leonardo e marca-raro cuidam disso.
 - **Não repete o briefing reformulado como se fosse análise.** Se a entrega não acrescenta julgamento ao que foi delegado, ela não está pronta.
+
+## Conferência de citação
+
+Dispositivo legal, súmula, julgado, alíquota ou prazo só entra no texto depois de conferido no conector Jusratio ou em fonte oficial consolidada, na própria sessão. O que não for conferido fica fora do texto ou entra marcado [A CONFERIR: fonte]. Memória, arquivo de referência embarcado e trecho de resultado de busca servem para localizar, nunca para afirmar.
