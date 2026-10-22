@@ -31,7 +31,7 @@ Antes de gerar qualquer análise, consultar o acervo do escritório (pasta do ac
 Toda análise que toque legislação, jurisprudência ou mercado exige busca antes de responder. Regras:
 
 1. **Fonte oficial consolidada obrigatória** para citar ou afirmar conteúdo, redação ou numeração de qualquer dispositivo (Planalto, DOU, sítios oficiais). Trecho de resultado de busca e fonte secundária não bastam — servem para localizar, não para afirmar.
-2. O que não puder ser verificado na fonte oficial dentro da sessão entra na análise **marcado como pendente de conferência**, e a nota metodológica lista o status de cada dispositivo.
+2. O que não puder ser verificado na fonte oficial dentro da sessão entra na análise **marcado [A CONFERIR: fonte]**, e a nota metodológica lista o status de cada dispositivo.
 3. **Suspeita padrão sobre o discurso comercial**: material de venda de estruturas circula com a lei desatualizada na cabeça (ex.: quadros pré-LC 227/2026, que alterou a ordem de prevalência entre alíquota zero e diferimento). Datar cada afirmação tributária do arranjo contra a legislação vigente na data da análise.
 4. Buscar o estado atual do mercado: quem patrocina o movimento, se há casos públicos, se houve manifestação de fisco ou reguladores.
 

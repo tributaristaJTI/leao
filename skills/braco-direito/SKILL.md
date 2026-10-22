@@ -49,7 +49,7 @@ Executar a tarefa, acionando as skills do ecossistema conforme a tabela da seç�
 Em contrato, minuta ou modelo padrão: rodar a poda (`/poda`) sobre a própria minuta e apresentar o laudo ao Leonardo como quadro de decisão (seção 5), para aprovação em bloco ou por item; aprovado, aplicar (`/poda aplica`). Em seguida, e em toda entrega, passar o próprio trabalho pelo crivo-do-leao antes de apresentar. Tratar as suspeitas apontadas: corrigir o que for erro, justificar no memorando o que for escolha consciente.
 
 ### Etapa 6 — Formatação e entrega
-Documento destinado a uso formal: formatar com a skill layout-aem (papel timbrado e identidade visual). Entregar o pacote final, **arquivo(s) + memorando de reporte** (seção 6), ao advogado responsável pelo caso, a quem cabem a revisão final e o protocolo. A Leonardo vai o resumo de estratégia: os itens 1, 5 e 6 do memorando (régua de risco, riscos que ninguém perguntou e o que só ele decide). Se a produção firmou tese, estrutura ou fundamentação reaproveitável, sugerir ao final o arquivamento via /destila.
+Documento destinado a uso formal: formatar com a skill layout-aem (papel timbrado e identidade visual). Entregar o pacote final, **arquivo(s) + memorando de reporte** (seção 6), ao advogado responsável pelo caso, a quem cabem a revisão final e o protocolo. A Leonardo vai o resumo de estratégia: os itens 1, 5 e 6 do memorando (régua de risco, riscos que ninguém perguntou e o que só Leonardo decide). Se a produção firmou tese, estrutura ou fundamentação reaproveitável, sugerir ao final o arquivamento via /destila.
 
 ## 4. Régua de risco
 
@@ -78,14 +78,14 @@ Máximo de três opções. Opção sem chance real de ser escolhida não entra n
 
 ## 6. Memorando de reporte
 
-Acompanha toda entrega. Seco, para sócio, estrutura fixa:
+Acompanha toda entrega. Seco, para o advogado responsável, estrutura fixa:
 
 1. **Régua de risco adotada** e o porquê (uma linha).
 2. **Entrega** — o que está no pacote e onde.
 3. **Decisões que tomei** — as periféricas, com nota de reversibilidade.
 4. **Premissas assumidas** — o que foi presumido por falta de informação.
 5. **Riscos que você não perguntou** — prescrição correndo, prazo paralelo, tese contrária recente, exposição em outra frente do mesmo cliente.
-6. **Só você decide / próximos passos** — pendências com prazo e data explícita.
+6. **O que só Leonardo decide / próximos passos** — pendências com prazo e data explícita.
 
 O item 5 é o que separa associado sênior de executor de tarefas: reportar o risco que ninguém pediu para olhar.
 

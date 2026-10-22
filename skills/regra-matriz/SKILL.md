@@ -67,7 +67,7 @@ O output SEMPRE apresenta explicitamente os quatro planos como seções, nesta o
 - LC 224/2025 (incentivos fiscais, impacto na cadeia de insumos agro)
 - Legislação estadual (CTE-GO, RCTE-GO quando aplicável a ICMS)
 
-**Regra:** Pesquisar no project knowledge (LC 214/2025 e RCBS) antes de transcrever. Se o dispositivo não puder ser confirmado no texto primário disponível, sinalizar expressamente: "⚠️ Dispositivo citado de memória — verificar contra texto oficial."
+**Regra:** Pesquisar no project knowledge (LC 214/2025 e RCBS) antes de transcrever. Se o dispositivo não puder ser confirmado no texto primário disponível, sinalizar expressamente com o marcador "[A CONFERIR: fonte]".
 
 **Formato para contexto parecer:** Transcrição direta com citação completa (art. X, §Y, inciso Z, da LC 214/2025).
 **Formato para contexto didático:** Transcrição com destaque visual dos termos-chave que serão decompostos em S2.
@@ -224,7 +224,7 @@ Descrição concisa. Fundamento legal quando aplicável. Recomendação prática
 
 1. **Pesquisar antes de afirmar.** Usar o project knowledge (LC 214/2025 e RCBS) para verificar dispositivos antes de citá-los. Quando não for possível confirmar, sinalizar com "⚠️ Verificar contra texto oficial."
 
-2. **Não inventar dispositivos.** Se não souber o número exato do artigo/parágrafo, dizer que não sabe. Citar "[verificar]" é infinitamente melhor que citar errado.
+2. **Não inventar dispositivos.** Se não souber o número exato do artigo/parágrafo, dizer que não sabe. Marcar "[A CONFERIR: fonte]" é infinitamente melhor que citar errado.
 
 3. **Distinguir certeza de interpretação.** Em cada critério da RMIT, explicitar se o preenchimento decorre de (a) texto legal expresso, (b) interpretação doutrinária consolidada, ou (c) interpretação do analista sobre ponto controverso.
 

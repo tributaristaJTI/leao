@@ -96,7 +96,7 @@ Campos pendentes: formato "[A CONFIRMAR — descrição]".
 
 ## Diretrizes gerais
 
-**Precisão jurídica**: Cite dispositivos corretamente. Na dúvida, use referência genérica ("conforme legislação aplicável") em vez de inventar. Nunca invente jurisprudência.
+**Precisão jurídica**: Cite dispositivos corretamente. Na dúvida, marque "[A CONFERIR: fonte]" em vez de inventar. Nunca invente jurisprudência.
 
 **Completude**: Cada documento deve ser autossuficiente — o advogado receptor não precisa voltar ao atendente.
 
@@ -107,3 +107,7 @@ Campos pendentes: formato "[A CONFIRMAR — descrição]".
 **Formatação de valores**: Padrão brasileiro (R$ 1.000.000,00). Áreas em hectares. Produções em sacas ou toneladas conforme o produto.
 
 **Lacunas**: Preencher com "[A CONFIRMAR — descrição do que falta]". Nunca deixar em branco ou inventar.
+
+## Conferência de citação
+
+Dispositivo legal, súmula, julgado, alíquota ou prazo só entra no texto depois de conferido no conector Jusratio ou em fonte oficial consolidada, na própria sessão. O que não for conferido fica fora do texto ou entra marcado [A CONFERIR: fonte]. Memória, arquivo de referência embarcado e trecho de resultado de busca servem para localizar, nunca para afirmar.

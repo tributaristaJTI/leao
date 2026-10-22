@@ -49,7 +49,7 @@ Acionar a `destila` com a tese vencedora + bifurcações → nota canônica. A `
 ## Regras
 
 1. **Ancoragem:** leitura só entra no mapa se prende-se a texto (S1) e sobrevive ao teste sistêmico (S4). O que não ancora é descartado, não "considerado".
-2. **Não inventar dispositivos;** "[verificar]" > citar errado.
+2. **Não inventar dispositivos;** "[A CONFERIR: fonte]" > citar errado.
 3. **Distinguir certeza de interpretação** (texto expresso / doutrina / analista).
 4. **Cada RMIT é autônoma** (múltiplos fatos → múltiplas RMITs).
 5. **Self-review:** artigos corretos? material coerente com base de cálculo? remissões completas? ranqueamento fundamentado?

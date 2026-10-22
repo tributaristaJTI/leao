@@ -123,3 +123,7 @@ Fluxo natural: o usuário rodou um módulo analítico (ex: IR Venda de Imóvel),
 3. Todo cenário deve ter o grau de risco explícito (Baixo, Moderado, Alto).
 4. O cenário de inação (o que acontece se não fizer nada) é obrigatório.
 5. Se a análise ainda não foi validada pelo usuário, sinalize que o entregável é preliminar.
+
+## Conferência de citação
+
+Dispositivo legal, súmula, julgado, alíquota ou prazo só entra no texto depois de conferido no conector Jusratio ou em fonte oficial consolidada, na própria sessão. O que não for conferido fica fora do texto ou entra marcado [A CONFERIR: fonte]. Memória, arquivo de referência embarcado e trecho de resultado de busca servem para localizar, nunca para afirmar.

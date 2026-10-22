@@ -41,3 +41,19 @@ Cada item traz a recomendação do executor, para que a decisão seja um sim ou 
 8. **Restos da migração da briefing-juridico.** O `assets/template-timbrado.docx` ficou sem uso. Nada foi apagado. Recomendação: retirar do pacote na publicação.
 
 Observação fora do tipo do laudo, só para registro: `marca-raro` e o comando `post-linkedin` fixam o máximo de 1.300 caracteres, e as preferências fixam 1.000.
+
+## Pendentes 2 a 8 · aprovados por Leonardo em 22/10/2026 e aplicados
+
+| Pendente | Aplicação |
+|---|---|
+| 2 | `skills/mod-ibs-cbs-diferimento/SKILL.md` substituída pela versão proposta (Passo 0 de parâmetros conferidos, sem cronograma nem alíquotas de memória). A proposta continua em `relatorios/propostas/` como registro. |
+| 3 | braco-direito: memorando "para o advogado responsável"; item 6 passa a "O que só Leonardo decide / próximos passos"; a Etapa 6 acompanha a mudança. |
+| 4 | Preferências: nada editado, porque já estão em vigor. |
+| 5 | `[A CONFERIR: fonte]` passa a ser o marcador em cerebro-pbc, regra-matriz (dois pontos), fiel-da-balanca (marcador da análise; a categoria "pendentes de conferência" da nota metodológica ficou) e briefing-juridico (a "referência genérica" saiu). Mantidos: `[VERIFICAR ANTES DE PROTOCOLAR]` (braco-direito) e `[a preencher]` (destila). |
+| 6 | Parágrafo padrão de conferência como última seção de artigo-juridico, briefing-juridico, entregavel-cliente, guardiao-de-caso e voz-autoral-leonardo (agora 22 skills). |
+| 7 | monitor-carf, `references/tarefa-agendada.md`: "modelo Sonnet" vira "modelo de custo menor disponível". ponto-do-leao mantida. |
+| 8 | `briefing-juridico/assets/template-timbrado.docx` retirado do pacote; cópia local em `_lixeira/2026-10-22_briefing-juridico_template-timbrado.docx` e no histórico do git. |
+
+Validação: `claude plugin validate skills --strict` aprovado; as 11 skills alteradas nesta rodada aprovadas isoladamente.
+
+Segue aberto: pendente 1 (plugin legal).

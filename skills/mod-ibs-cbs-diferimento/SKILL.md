@@ -5,150 +5,80 @@ description: "Módulo de análise da reforma tributária aplicada ao agronegóci
 
 # Módulo IBS/CBS e Diferimento na Compra de Insumos Agropecuários
 
-Módulo voltado para a reforma tributária (EC 132/2023 e legislação complementar). Simula a carga de IBS/CBS sobre operações agropecuárias, com foco no diferimento na aquisição de insumos e no comparativo entre carga atual e carga projetada.
+Simula a carga de IBS (Imposto sobre Bens e Serviços) e CBS (Contribuição sobre Bens e Serviços) sobre a operação agropecuária do cliente, com foco no diferimento na aquisição de insumos, e compara com a carga atual (ICMS e PIS/COFINS). A reforma está em regulamentação: por isso o módulo trata toda alíquota, limite, prazo e regra como parâmetro que só entra no cálculo depois de conferido na sessão.
 
 ## Escopo
 
-- IBS (Imposto sobre Bens e Serviços) e CBS (Contribuição sobre Bens e Serviços) aplicados ao agro
-- Diferimento na aquisição de insumos agropecuários (sementes, fertilizantes, defensivos, rações, combustível)
-- Regime específico do produtor rural na reforma (PF com receita até determinado limite)
-- Alíquotas reduzidas para produtos agropecuários
-- Créditos presumidos na cadeia agro
-- Período de transição (2026-2033) e convivência de regimes
-- Comparativo carga atual (ICMS + PIS/COFINS) vs carga projetada (IBS/CBS)
-- Impacto na exportação (manutenção da imunidade)
+- IBS e CBS aplicados ao agro, inclusive alíquotas reduzidas e créditos presumidos na cadeia
+- Diferimento na aquisição de insumos agropecuários
+- Regime do produtor rural pessoa física na reforma
+- Período de transição e convivência de regimes
+- Comparativo carga atual × carga projetada
+- Exportação
 
-## Nota importante
+## Passo 0 · Base normativa da sessão (antes de qualquer conta)
 
-**A reforma tributária está em fase de regulamentação.** As alíquotas definitivas, regras de diferimento e regime específico do produtor rural dependem de leis complementares e regulamentos que podem ser alterados. Toda análise neste módulo deve:
+Montar a tabela de parâmetros. Cada linha é conferida no conector Jusratio ou na fonte oficial consolidada; nenhuma vem de memória, deste arquivo ou do `ref-funrural-ibs.md` (que serve só como mapa de onde procurar).
 
-1. Pesquisar a legislação mais recente via web antes de calcular
-2. Explicitar as premissas regulatórias adotadas
-3. Sinalizar claramente o que é norma vigente e o que é projeção baseada no texto aprovado
-4. Incluir cenários de sensibilidade para variações de alíquota
+| Parâmetro | Valor | Fonte conferida | Status |
+|---|---|---|---|
+| Alíquota de referência de IBS e de CBS no ano analisado | | | vigente / projetado / [A CONFERIR: fonte] |
+| Redução de alíquota para o produto agropecuário do cliente | | | |
+| Regra de diferimento para cada categoria de insumo do cliente | | | |
+| Enquadramento do produtor pessoa física (limite e efeitos) | | | |
+| Crédito presumido do adquirente de produtor não contribuinte | | | |
+| Tratamento da exportação | | | |
+| Cronograma da transição, ano a ano, para IBS, CBS, ICMS e PIS/COFINS | | | |
+| Regime atual de ICMS no estado do cliente (diferimentos, isenções) | | | |
+| Regime atual de PIS/COFINS conforme o regime do cliente | | | |
+
+Linha sem fonte conferida não bloqueia a análise: ela roda como cenário, com o parâmetro marcado [A CONFERIR: fonte], e a conclusão não se apoia nela.
 
 ## Fluxo analítico
 
-### 1. Mapeamento da operação atual
+1. **Mapear a operação.** Faturamento por produto; compras de insumos por categoria (sementes e mudas, fertilizantes e corretivos, defensivos, rações e suplementos, combustíveis e lubrificantes, máquinas e implementos); percentual exportado; regime atual (PF, PJ no lucro real ou no presumido); estados de operação. Dado que faltar entra em "Informações pendentes", sem interromper.
+2. **Carga atual.** ICMS efetivo (com os diferimentos e créditos acumulados do estado) e PIS/COFINS efetivo, pelos parâmetros do Passo 0.
+3. **Carga projetada.** Débitos sobre vendas internas, tratamento da exportação, créditos sobre insumos, saldo e destino do saldo credor, pelos parâmetros do Passo 0.
+4. **Diferimento de insumos.** Quais insumos do cliente se enquadram, efeito no caixa (quando o imposto é pago e por quem), diferença para isenção, efeito no crédito do adquirente.
+5. **Produtor pessoa física.** Enquadramento, obrigações acessórias, efeito do crédito presumido no preço que o adquirente paga, e a pergunta da operação: manter PF ou migrar para PJ.
+6. **Transição.** Carga ano a ano para a operação do cliente, pelo cronograma conferido.
+7. **Quadro comparativo e sensibilidade** (modelo abaixo).
+8. **Recomendação.** Se a reforma melhora ou piora a operação do cliente, ações preparatórias, se há razão para reorganizar a estrutura antes da vigência plena, e o calendário de acompanhamento regulatório.
 
-Coletar:
-- Faturamento bruto anual por tipo de produto (soja, milho, gado, leite, etc.)
-- Volume e valor de compras de insumos por categoria:
-  - Sementes e mudas
-  - Fertilizantes e corretivos
-  - Defensivos agrícolas
-  - Rações e suplementos (se pecuária)
-  - Combustíveis e lubrificantes
-  - Máquinas e implementos (investimento)
-- Percentual de vendas para exportação vs mercado interno
-- Regime tributário atual (PF ou PJ; se PJ, lucro real ou presumido)
-- Estado de localização (para mapear ICMS atual com diferimentos estaduais)
+## Cálculo
 
-### 2. Apuração da carga tributária atual
+Todo cálculo em Python, com os parâmetros num único dicionário que carrega valor e fonte, para que a memória de cálculo mostre de onde veio cada número:
 
-Calcular em Python a carga atual de:
-
-**ICMS:**
-- Verificar diferimentos estaduais aplicáveis (ex: ICMS diferido na saída de soja em GO)
-- Créditos acumulados de exportação
-- Carga efetiva considerando diferimentos e isenções estaduais
-
-**PIS/COFINS:**
-- Se PF: não incide (produtor PF está fora)
-- Se PJ lucro real: não-cumulativo com créditos presumidos (Lei 10.925/04)
-- Se PJ lucro presumido: cumulativo (0,65% + 3%)
-
-**Carga total atual:**
-```
-carga_atual = icms_efetivo + pis_cofins_efetivo
-carga_atual_percentual = carga_atual / receita_bruta
+```python
+parametros = {
+    "aliquota_ref_cbs": {"valor": None, "fonte": "[A CONFERIR: fonte]"},
+    "aliquota_ref_ibs": {"valor": None, "fonte": "[A CONFERIR: fonte]"},
+    "reducao_agro": {"valor": None, "fonte": "[A CONFERIR: fonte]"},
+    # uma entrada por linha da tabela do Passo 0
+}
 ```
 
-### 3. Projeção da carga com IBS/CBS
+Três camadas de segurança: (1) prova real, invertendo o cálculo; (2) conferência de que nenhum parâmetro usado está com `valor` vazio sem estar marcado como cenário; (3) etapas mostradas uma a uma, para o advogado conferir variável por variável. Valores finais em centavos; percentuais com quatro casas.
 
-Calcular em Python com base na legislação mais recente:
+## Quadro comparativo
 
-```
-# Alíquota de referência IBS/CBS (pesquisar valor atualizado)
-# Redução para produtos agropecuários (verificar percentual de redução aprovado)
-# Diferimento na aquisição de insumos (verificar regra vigente)
-
-# Créditos de IBS/CBS sobre insumos
-creditos_insumos = valor_insumos * aliquota_ibs_cbs_insumos
-
-# Débitos de IBS/CBS sobre vendas
-debitos_vendas_internas = receita_mercado_interno * aliquota_ibs_cbs_agro
-debitos_exportacao = 0  # Exportação imune
-
-# Saldo
-saldo_ibs_cbs = debitos_vendas_internas - creditos_insumos
-
-# Se saldo negativo: crédito acumulado (verificar regra de ressarcimento)
-```
-
-### 4. Análise do diferimento de insumos
-
-Detalhar o impacto do diferimento:
-- Quais insumos se enquadram no diferimento
-- Impacto no fluxo de caixa (pagamento do imposto é postergado para quando?)
-- Diferença entre diferimento e isenção (no diferimento, o imposto é devido, apenas pago depois)
-- Impacto na tomada de créditos pelo adquirente dos produtos agropecuários
-
-### 5. Regime específico do produtor rural PF
-
-Avaliar:
-- Limite de receita para o regime simplificado do produtor PF
-- Obrigações acessórias no novo regime
-- Crédito presumido concedido ao adquirente quando compra de produtor PF
-- Comparação: vale mais manter PF no regime simplificado ou migrar para PJ no regime geral?
-
-### 6. Período de transição
-
-Mapear a transição:
-- 2026-2028: CBS em fase de teste/calibragem
-- 2027-2028: IBS começa a ser cobrado gradualmente
-- 2029-2032: redução progressiva de ICMS e ISS com aumento correspondente de IBS
-- 2033: extinção de ICMS e ISS; IBS/CBS plenos
-
-Avaliar o impacto em cada ano da transição para a operação específica do cliente.
-
-### 7. Quadro comparativo
-
-| Elemento | Carga Atual | Carga Projetada (IBS/CBS) | Diferença |
-|----------|-------------|---------------------------|-----------|
+| Elemento | Carga atual | Carga projetada | Diferença |
+|---|---|---|---|
 | Tributos sobre vendas internas | R$ | R$ | R$ |
-| Tributos sobre exportação | R$ | R$ 0 (imune) | R$ |
+| Tributos sobre exportação | R$ | R$ | R$ |
 | Créditos sobre insumos | R$ | R$ | R$ |
 | Carga líquida | R$ | R$ | R$ |
-| Carga efetiva (% sobre receita) | % | % | |
+| Carga efetiva (% da receita) | % | % | |
 
-### 8. Análise de sensibilidade
-
-Rodar cenários com:
-- Alíquota de referência +/- 2 pontos percentuais
-- Variação no percentual de exportação (20%, 50%, 80%)
-- Com e sem diferimento de insumos
-- PF no regime simplificado vs PJ no regime geral
-
-### 9. Recomendação
-
-Posicionar-se sobre:
-- Se a reforma beneficia ou prejudica a operação específica do cliente
-- Ações preparatórias recomendadas durante a transição
-- Se há incentivo tributário para reorganizar a estrutura (PF→PJ ou vice-versa) antes da plena vigência
-- Cronograma de acompanhamento regulatório
+Sensibilidade obrigatória: alíquota de referência dois pontos acima e abaixo; exportação em 20%, 50% e 80%; com e sem diferimento de insumos; PF × PJ.
 
 ## Regras
 
-1. **Sempre pesquisar a legislação atualizada** antes de qualquer cálculo — a reforma está em regulamentação.
-2. Todo cálculo em Python com prova real.
-3. Separar claramente o que é norma vigente do que é projeção.
-4. A análise de sensibilidade com variação de alíquota é obrigatória.
-5. Se o cliente opera em mais de um estado, considerar o impacto da transição para o princípio do destino.
-
-## Referência legislativa
-
-Dispositivos da reforma tributária, alíquotas projetadas e prazos são conferidos no conector Jusratio ou na fonte oficial consolidada antes de entrar no cálculo ou no texto. O arquivo `ref-funrural-ibs.md` do projeto serve só como mapa de onde procurar; não vale como fonte.
+1. Passo 0 antes de qualquer conta. Parâmetro não conferido é cenário, nunca premissa da conclusão.
+2. Separar, no texto e no quadro, o que é norma vigente do que é projeção.
+3. Operação em mais de um estado: considerar o efeito da tributação no destino.
+4. Se a análise envolver comparação PF × PJ ou grupo econômico, articular com `mod-comparativo-pf-pj` e `mod-grupo-economico`.
+5. A entrega fecha com nota metodológica: parâmetros conferidos (com fonte e data) × pendentes de conferência.
 
 ## Conferência de citação
 
