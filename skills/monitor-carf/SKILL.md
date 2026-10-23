@@ -161,7 +161,8 @@ registra (operacional / posicionamento).
 - `references/termos-base.md` — cópia embutida dos termos (só se o Notion
   falhar).
 - `references/tarefa-agendada.md` — texto da tarefa, calendário e teste de
-  aceite.
+  aceite. Onde a referência indica o modelo pelo nome, ler como "modelo de
+  custo menor disponível": coleta e triagem não pedem modelo maior.
 - `references/boletim.md` — contrato do boletim diário por e-mail, lido da
   base de acórdãos por automação externa.
 - `references/registro-arquiteto.md` — o que esta skill criou, para o

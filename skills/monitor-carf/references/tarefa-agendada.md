@@ -4,7 +4,7 @@
 
 Uma tarefa só, em dias úteis, no lugar das três antigas. Sugestão de
 configuração: nome "Monitor CARF — pauta do dia"; de segunda a sexta, cedo;
-modelo de custo menor disponível (coleta e triagem não pedem modelo maior, e o custo fixo de
+modelo Sonnet (coleta e triagem não pedem modelo maior, e o custo fixo de
 abrir a sessão se paga cinco vezes por semana).
 
 O texto abaixo vai inteiro no campo de instruções da tarefa. Os endereços

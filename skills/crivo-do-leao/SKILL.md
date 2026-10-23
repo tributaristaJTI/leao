@@ -15,6 +15,8 @@ Filosofia: o Claude erra de formas previsíveis (legislação fantasma, jurispru
 
 `/crivo social` — aciona o **Modo Social**: bateria substituta para conteúdo de marca curto (post, carrossel, roteiro, legenda, texto institucional, material da assessoria). Ver `references/modo-social.md`. O modo social também é acionado automaticamente quando o input for claramente peça de comunicação pública. Em dúvida entre peça jurídica e peça de marca, pergunte ao usuário — nunca assuma.
 
+No eixo S2 do modo social, o critério 1 (anti-padrões globais) é lido como remissão à seção "Proibições globais de estilo" da skill `voz-autoral-leonardo`, que é a lista completa e vigente, com exemplos e testes; a lista transcrita no `references/modo-social.md` não vale quando divergir dela.
+
 ## Fluxo de trabalho
 
 ### Etapa 0 — Checar disponibilidade do motor
