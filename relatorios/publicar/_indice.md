@@ -15,11 +15,20 @@ Gerado em 22/10/2026. Nada foi publicado. 22 skills avulsas e 1 plugin.
 
 Consequências para as próximas rodadas: (a) ao montar cada cartão, o campo descrição recebe exatamente a `description` do frontmatter da seção 1, desdobrada numa linha só; (b) a conferência pós-publicação compara a `description` também, porque é ali que um desvio do cartão aparece.
 
+## Fatos conferidos em 23/10/2026 (rodada 2)
+
+3. **O cartão só altera a SKILL.md; `references/` e `assets/` ficam como estavam.** Este fato completa o 1: arquivo de apoio alterado não sobe pelo cartão. Correção que estiver em arquivo de apoio vai para a SKILL.md, como regra de leitura do arquivo antigo.
+4. **A `crivo-do-leao` está com `references/modo-social.md` na versão antiga na conta.** O critério 1 do eixo S2 ainda transcreve a lista de anti-padrões. Tratamento: frase na seção "Comandos" da SKILL.md que manda ler esse critério como remissão à seção "Proibições globais de estilo" da `voz-autoral-leonardo`; republicação na rodada 8.
+5. **A `briefing-juridico` mantém `assets/template-timbrado.docx`, inerte.** A SKILL.md publicada não aponta mais para ele. Retirada, se Leonardo quiser, só pelo painel da skill.
+
+Com isso, o repositório passa a espelhar os arquivos de apoio da conta: `crivo-do-leao/references/modo-social.md`, `monitor-carf/references/tarefa-agendada.md` e `briefing-juridico/assets/` voltaram à versão sincronizada, e as correções que estavam neles moram na SKILL.md.
+
 ## Rodadas publicadas
 
 | Rodada | Skills | Conferência |
 |---|---|---|
 | 1 | mod-ibs-cbs-diferimento, braco-direito, voz-autoral-leonardo | 22/10: corpo idêntico; frontmatter igual descontadas aspas no `name`, dobra da `description` e quebra de linha final. A dobra do repositório inseria um espaço em "científico- dissertativo"; a versão publicada está correta, e o repositório foi alinhado a ela. |
+| 2 | destila, briefing-juridico, crivo-do-leao | 23/10: as três SKILL.md batem (mesmos critérios da rodada 1). Arquivos de apoio da conta inalterados (fatos 3 a 5). A `crivo-do-leao` volta na rodada 8 com a frase de remissão. |
 
 ## Rodadas (até três cartões por rodada, das mudanças de maior efeito para as menores)
 
@@ -29,20 +38,20 @@ Consequências para as próximas rodadas: (a) ao montar cada cartão, o campo de
 | 2 | `destila.md`, `briefing-juridico.md`, `crivo-do-leao.md` | Etapa nova, migração de layout, remissão no Modo Social |
 | 3 | `mod-ir-venda-imovel.md`, `mod-funrural.md`, `mod-comparativo-pf-pj.md` | Módulos de cálculo: fonte conferida |
 | 4 | `mod-grupo-economico.md`, `cerebro-pbc.md`, `regra-matriz.md` | Módulo restante; nome de modelo; marcadores |
-| 5 | `fiel-da-balanca.md`, `monitor-carf.md`, `artigo-juridico.md` | Marcador; referência; parágrafo padrão |
+| 5 | `fiel-da-balanca.md`, `monitor-carf.md`, `artigo-juridico.md` | Marcador; parágrafo padrão e leitura do modelo da tarefa agendada na SKILL.md (o arquivo de apoio fica como está na conta); parágrafo padrão |
 | 6 | `entregavel-cliente.md`, `guardiao-de-caso.md`, `agint-aresp.md` | Só o parágrafo padrão |
 | 7 | `parecer-aem.md`, `pesquisa-gcap.md`, `tributarista-consultivo.md` | Só o parágrafo padrão |
-| 8 | `tributarista-contencioso.md` | Só o parágrafo padrão |
+| 8 | `tributarista-contencioso.md`, `crivo-do-leao.md` | Parágrafo padrão; republicação da crivo com a frase de remissão do modo social |
 | à parte | `_plugin-ecossistema-do-leao.md` | Plugin: novo envio pela tela de plugins, sem cartão |
 
-`crivo-do-leao`, `monitor-carf` e `briefing-juridico` mudam também fora da SKILL.md (um arquivo de apoio alterado nas duas primeiras, um retirado na terceira). Pelo fato 1, o cartão mantém a `references/` em vigor. Falta saber se um arquivo de apoio alterado substitui o anterior [A CONFERIR na rodada 2: `crivo-do-leao/references/modo-social.md`]. O `monitor-carf/references/tarefa-agendada.md` segue a mesma regra. O `assets/` da `briefing-juridico` também pode sobreviver ao cartão; se sobreviver, a retirada do template só se faz pelo painel da skill.
+Arquivos de apoio: pelos fatos 1 e 3, o cartão não toca `references/` nem `assets/`. Toda correção destinada a arquivo de apoio entra na SKILL.md como regra de leitura (feito na `crivo-do-leao` e na `monitor-carf`). Os arquivos de publicação levam só a SKILL.md.
 
 ## Prompt para o chat do Claude (uma rodada por vez)
 
 Com o repositório tributaristaJTI/leao conectado à conversa:
 
 ```
-Leia relatorios/publicar/<arquivo 1>, <arquivo 2> e <arquivo 3>. Para cada um, proponha a skill como atualização da skill existente de mesmo nome, com a SKILL.md completa da seção 1 (e os arquivos de apoio, quando houver). Mostre o resumo da seção 2 junto do cartão. No campo descrição de cada cartão, use exatamente a description do frontmatter da seção 1, em uma linha só, porque esse campo sobrescreve a do arquivo.
+Leia relatorios/publicar/<arquivo 1>, <arquivo 2> e <arquivo 3>. Para cada um, proponha a skill como atualização da skill existente de mesmo nome, com a SKILL.md completa da seção 1. Mostre o resumo da seção 2 junto do cartão. No campo descrição de cada cartão, use exatamente a description do frontmatter da seção 1, em uma linha só, porque esse campo sobrescreve a do arquivo.
 ```
 
 ## Depois de cada rodada

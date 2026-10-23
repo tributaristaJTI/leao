@@ -1,5 +1,5 @@
 ---
-name: briefing-juridico
+name: "briefing-juridico"
 description: "Gera briefings jurídicos profissionais para o escritório Amaral e Melo Advogados, especializado em direito tributário e agronegócio. Use SEMPRE que o usuário digitar /comercial ou /operacional, ou quando pedir para gerar um briefing de caso, ficha técnica de caso, briefing comercial, documento de handoff jurídico, ou qualquer documento de atendimento inicial para advogados. Também acione quando o contexto envolver preparação de reunião de fechamento com cliente rural, repasse de caso entre advogados, ou estruturação de informações de atendimento jurídico no agro. Gera documentos .docx com papel timbrado do escritório."
 ---
 
