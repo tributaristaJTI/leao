@@ -30,6 +30,7 @@ Com isso, o repositório passa a espelhar os arquivos de apoio da conta: `crivo-
 | 1 | mod-ibs-cbs-diferimento, braco-direito, voz-autoral-leonardo | 22/10: corpo idêntico; frontmatter igual descontadas aspas no `name`, dobra da `description` e quebra de linha final. A dobra do repositório inseria um espaço em "científico- dissertativo"; a versão publicada está correta, e o repositório foi alinhado a ela. |
 | 2 | destila, briefing-juridico, crivo-do-leao | 23/10: as três SKILL.md batem (mesmos critérios da rodada 1). Arquivos de apoio da conta inalterados (fatos 3 a 5). A `crivo-do-leao` volta na rodada 8 com a frase de remissão. |
 | 3 | mod-ir-venda-imovel, mod-funrural, mod-comparativo-pf-pj | 24/10: as três SKILL.md batem (mesmos critérios); arquivos de apoio inalterados; repositório alinhado ao cabeçalho publicado. |
+| 4 | mod-grupo-economico, cerebro-pbc, regra-matriz | 24/10: as três SKILL.md batem (mesmos critérios); a `cerebro-pbc` sincronizou às 13:50 UTC, depois das outras duas; arquivos de apoio inalterados; repositório alinhado ao cabeçalho publicado. |
 
 ## Rodadas (até três cartões por rodada, das mudanças de maior efeito para as menores)
 
@@ -61,6 +62,8 @@ Arquivos de apoio: pelos fatos 1 e 3, o cartão não toca `references/` nem `ass
 | mod-funrural | 9 | composição do Funrural PF e PJ (INSS, RAT, SENAR), contribuição sobre a folha, graus de RAT |
 | mod-comparativo-pf-pj | 15 | tabela do IRPF, Funrural, IRPJ e adicional, CSLL, PIS/COFINS |
 | mod-grupo-economico | 0 | nenhuma alíquota fixa no corpo; o Passo 0 reúne os parâmetros que o módulo herda dos outros três e as alíquotas de ITCMD do estado envolvido |
+
+**Marcador de dispositivo não conferido (entra na rodada 9):** uniformizar em [A CONFERIR: fonte] o marcador da `cerebro-pbc` (S1, "⚠️ verificar contra texto oficial") e da `regra-matriz` (regra geral 1, "⚠️ Verificar contra texto oficial."), que ainda convivem com [A CONFERIR: fonte] nas mesmas skills. Escaparam da varredura do pendente 5, que procurou as formas "[verificar]" e "citado de memória".
 
 **Como fazer quando aprovado:** reescrever por proposta ao lado da atual, como na decisão 9 do laudo; Leonardo aprova; arquivos de publicação novos; rodada 9 de cartões. A `description` de cada módulo fica igual.
 

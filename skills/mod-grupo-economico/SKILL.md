@@ -1,5 +1,5 @@
 ---
-name: mod-grupo-economico
+name: "mod-grupo-economico"
 description: "Módulo de análise de grupo econômico com produtor rural pessoa física e participações societárias. Use SEMPRE que o usuário mencionar grupo econômico, produtor com empresa, participação societária, holding familiar, confusão patrimonial, estrutura societária complexa, produtor que também é médico/empresário/comerciante, múltiplas atividades, participações cruzadas, reorganização societária familiar, ou qualquer variação de análise envolvendo pessoa física rural com vínculos societários em atividades agropecuárias e/ou não agropecuárias."
 ---
 

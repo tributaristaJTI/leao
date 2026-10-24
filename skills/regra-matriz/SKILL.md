@@ -1,5 +1,5 @@
 ---
-name: regra-matriz
+name: "regra-matriz"
 description: "Skill de decomposição de normas tributárias pela Regra-Matriz de Incidência Tributária (RMIT) e pelo Percurso Gerativo de Sentido (S1→S4) de Paulo de Barros Carvalho. Use SEMPRE que o usuário pedir para 'decompor', 'analisar pela regra-matriz', 'montar a RMIT', 'qual a regra-matriz de', 'quais os critérios de incidência', 'analisar o fato gerador', 'decomposição normativa', ou qualquer variação de análise estrutural de norma tributária usando o método PBC. Também acione quando o usuário mencionar 'S1', 'S2', 'S3', 'S4', 'percurso gerativo de sentido', 'planos interpretativos', ou pedir para 'interpretar o artigo X pela RMIT'. Acione tanto para análise de dispositivos legais isolados ('decomponha o art. 138 da LC 214') quanto para operações concretas ('monte a regra-matriz da venda de soja por produtor PF para trading exportadora'). Não use para análises tributárias genéricas que não exijam decomposição estrutural — para isso existem as skills tributarista-consultivo e tributarista-contencioso."
 ---
 

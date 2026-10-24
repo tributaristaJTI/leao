@@ -1,5 +1,5 @@
 ---
-name: cerebro-pbc
+name: "cerebro-pbc"
 description: "Estuda um corpo normativo e mapeia as interpretações possíveis pelo Percurso Gerativo de Sentido (S1→S4) de Paulo de Barros Carvalho, ranqueadas por defensabilidade. Use para ESTUDAR um recorte da reforma (tema, capítulo, conjunto de dispositivos) ou uma questão interpretativa aberta — 'estudar a reforma', 'mapear as interpretações de', 'quais as leituras possíveis de', 'levantar as controvérsias de', 'modo corpus'. NÃO é a regra-matriz (que decompõe UMA norma) — esta orquestra MUITAS e a chama como motor; NÃO é parecer de operação concreta (tributarista-consultivo) nem contencioso. Arquiva via destila."
 ---
 
