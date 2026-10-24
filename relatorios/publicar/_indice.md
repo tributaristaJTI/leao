@@ -34,8 +34,9 @@ Com isso, o repositório passa a espelhar os arquivos de apoio da conta: `crivo-
 | 5 | fiel-da-balanca, monitor-carf, artigo-juridico | 2026-10-24: corpo após o frontmatter e `description` idênticos nas três; arquivos de apoio inalterados (o `tarefa-agendada.md` da `monitor-carf` segue na versão da conta, como previsto); repositório alinhado ao cabeçalho publicado. |
 | 6 | entregavel-cliente, guardiao-de-caso, agint-aresp | 2026-10-24: corpo após o frontmatter e `description` idênticos nas três; arquivos de apoio inalterados; repositório alinhado ao cabeçalho publicado. |
 | 7 | parecer-aem, pesquisa-gcap, tributarista-consultivo | 2026-10-24: corpo após o frontmatter e `description` idênticos nas três; arquivos de apoio inalterados (inclusive `assets/`, `references/` e `scripts/` da `parecer-aem`); repositório alinhado ao cabeçalho publicado. |
+| 8 | tributarista-contencioso, crivo-do-leao | 2026-10-24: corpo após o frontmatter e `description` idênticos nas duas (sincronizadas às 14:30 UTC); a `crivo-do-leao` passa a ter na conta a remissão do modo social; arquivos de apoio inalterados; repositório alinhado ao cabeçalho publicado. |
 
-**Rodada 8 (tributarista-contencioso, crivo-do-leao): conferida em 24/10 e ainda não publicada.** Na conta, a `tributarista-contencioso` continua com a data de 01/04/2026 e a `crivo-do-leao` com a da rodada 2 (23/10, 01:39 UTC). O corpo das duas ainda é o anterior, ou seja, os cartões não foram salvos. O ciclo das 22 skills fecha quando esta rodada bater.
+**Ciclo das 22 skills concluído em 2026-10-24.** Todas as skills alteradas na Fase 1.2 estão publicadas e conferidas contra a conta; a varredura geral do mesmo dia não acusa diferença entre `skills/` e a cópia sincronizada.
 
 ## Rodadas (até três cartões por rodada, das mudanças de maior efeito para as menores)
 
@@ -98,10 +99,9 @@ Não são editadas por nós; o repositório só as espelha. Em 24/10, a `pptx` e
 
 ## Em aberto (24/10/2026)
 
-1. **Rodada 8:** salvar os cartões da `tributarista-contencioso` e da `crivo-do-leao`, conferir e fechar o ciclo das 22 skills.
-2. **Plugin `ecossistema-do-leao`:** publicação pela tela de plugins da conta (`_plugin-ecossistema-do-leao.md`); a versão 0.1.0 → 0.2.0 depende de decisão de Leonardo.
-3. **Rodada 9, só com aprovação de Leonardo:**
+1. **Plugin `ecossistema-do-leao`:** publicação pela tela de plugins da conta (`_plugin-ecossistema-do-leao.md`); a versão 0.1.0 → 0.2.0 depende de decisão de Leonardo.
+2. **Rodada 9, só com aprovação de Leonardo:**
    - Passo 0 nos módulos: `mod-ir-venda-imovel`, `mod-funrural`, `mod-comparativo-pf-pj`, `mod-grupo-economico`;
    - uniformização do marcador de dispositivo não conferido em `cerebro-pbc` (S1) e `regra-matriz` (regra geral 1);
    - candidatas acumuladas: `agint-aresp` (prazos, dispositivos e conteúdo volátil vencido), `pesquisa-gcap` (Q1 a Q9), `parecer-aem` (exemplo de interação), `tributarista-contencioso` (dispositivos e tese do confisco).
-4. **Plugin legal (pendente 1 de `correcoes-skills.md`):** conferir se o painel desativa skill a skill.
+3. **Plugin legal (pendente 1 de `correcoes-skills.md`):** conferir se o painel desativa skill a skill.

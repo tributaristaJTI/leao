@@ -1,5 +1,5 @@
 ---
-name: tributarista-contencioso
+name: "tributarista-contencioso"
 description: "Skill de análise tributária contenciosa e defesa fiscal. Use SEMPRE que o usuário mencionar autuação fiscal, auto de infração, defesa administrativa, impugnação, recurso, CARF, DRJ, contencioso judicial, nulidade, glosa, litígio tributário, multa fiscal, lançamento de ofício, termo de início de fiscalização, mandado de procedimento fiscal, ou qualquer análise sobre exigência fiscal já formalizada. Também acione quando o usuário pedir para 'impugnar', 'defender contra', 'analisar a autuação', 'recorrer de', 'verificar nulidade', 'avaliar chances de êxito', ou mencionar procedimentos como execução fiscal, exceção de pré-executividade, embargos à execução, ação anulatória. Não use para planejamento tributário prospectivo ou estruturação de operações — para isso existe a skill tributarista-consultivo."
 ---
 
