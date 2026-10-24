@@ -1,5 +1,5 @@
 ---
-name: mod-funrural
+name: "mod-funrural"
 description: "Módulo de simulação dos regimes de apuração do Funrural. Use SEMPRE que o usuário mencionar Funrural, contribuição previdenciária rural, sub-rogação, receita bruta versus folha, SENAR, RAT rural, alíquota Funrural PF, Funrural PJ, opção anual Funrural, comercialização de produção rural, retenção na nota, ou qualquer variação de análise sobre regimes de recolhimento da contribuição previdenciária do produtor rural."
 ---
 

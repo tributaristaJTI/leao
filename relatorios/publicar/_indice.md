@@ -29,6 +29,7 @@ Com isso, o repositório passa a espelhar os arquivos de apoio da conta: `crivo-
 |---|---|---|
 | 1 | mod-ibs-cbs-diferimento, braco-direito, voz-autoral-leonardo | 22/10: corpo idêntico; frontmatter igual descontadas aspas no `name`, dobra da `description` e quebra de linha final. A dobra do repositório inseria um espaço em "científico- dissertativo"; a versão publicada está correta, e o repositório foi alinhado a ela. |
 | 2 | destila, briefing-juridico, crivo-do-leao | 23/10: as três SKILL.md batem (mesmos critérios da rodada 1). Arquivos de apoio da conta inalterados (fatos 3 a 5). A `crivo-do-leao` volta na rodada 8 com a frase de remissão. |
+| 3 | mod-ir-venda-imovel, mod-funrural, mod-comparativo-pf-pj | 24/10: as três SKILL.md batem (mesmos critérios); arquivos de apoio inalterados; repositório alinhado ao cabeçalho publicado. |
 
 ## Rodadas (até três cartões por rodada, das mudanças de maior efeito para as menores)
 
@@ -45,6 +46,23 @@ Com isso, o repositório passa a espelhar os arquivos de apoio da conta: `crivo-
 | à parte | `_plugin-ecossistema-do-leao.md` | Plugin: novo envio pela tela de plugins, sem cartão |
 
 Arquivos de apoio: pelos fatos 1 e 3, o cartão não toca `references/` nem `assets/`. Toda correção destinada a arquivo de apoio entra na SKILL.md como regra de leitura (feito na `crivo-do-leao` e na `monitor-carf`). Os arquivos de publicação levam só a SKILL.md.
+
+## Passo 0 nos módulos (aberto em 24/10; não executar)
+
+**Status:** planejado. Rodada própria, depois da 8, só com aprovação de Leonardo.
+
+**O quê:** `mod-ir-venda-imovel`, `mod-funrural`, `mod-comparativo-pf-pj` e `mod-grupo-economico` ganham o Passo 0, a tabela de parâmetros com fonte e status, no modelo da `mod-ibs-cbs-diferimento` publicada na rodada 1. Assim, o corpo da skill deixa de entregar alíquota pronta. Cada alíquota, faixa, limite e prazo passa a ser parâmetro conferido no Jusratio ou na fonte oficial consolidada; o que não for conferido roda como cenário marcado [A CONFERIR: fonte].
+
+**Escopo levantado em 24/10** (linhas do corpo com percentual ou valor monetário fixo):
+
+| Módulo | Linhas | Exemplos do que vira parâmetro |
+|---|---|---|
+| mod-ir-venda-imovel | 12 | faixas e alíquotas do ganho de capital, percentual de redução por ano de aquisição, alíquota da atividade rural |
+| mod-funrural | 9 | composição do Funrural PF e PJ (INSS, RAT, SENAR), contribuição sobre a folha, graus de RAT |
+| mod-comparativo-pf-pj | 15 | tabela do IRPF, Funrural, IRPJ e adicional, CSLL, PIS/COFINS |
+| mod-grupo-economico | 0 | nenhuma alíquota fixa no corpo; o Passo 0 reúne os parâmetros que o módulo herda dos outros três e as alíquotas de ITCMD do estado envolvido |
+
+**Como fazer quando aprovado:** reescrever por proposta ao lado da atual, como na decisão 9 do laudo; Leonardo aprova; arquivos de publicação novos; rodada 9 de cartões. A `description` de cada módulo fica igual.
 
 ## Prompt para o chat do Claude (uma rodada por vez)
 

@@ -1,5 +1,5 @@
 ---
-name: mod-comparativo-pf-pj
+name: "mod-comparativo-pf-pj"
 description: "Módulo de comparação de carga tributária entre atividade rural como pessoa física e como pessoa jurídica. Use SEMPRE que o usuário mencionar comparativo PF PJ, pessoa física versus pessoa jurídica, constituir empresa rural, migrar para PJ, holding rural operacional, vantagem tributária PJ agro, regime tributário ideal para produtor rural, lucro real versus livro caixa, ou qualquer variação de análise sobre a conveniência de operar como PF ou PJ no agronegócio."
 ---
 

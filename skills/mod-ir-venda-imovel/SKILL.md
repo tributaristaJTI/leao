@@ -1,5 +1,5 @@
 ---
-name: mod-ir-venda-imovel
+name: "mod-ir-venda-imovel"
 description: "Módulo de apuração de IR sobre ganho de capital na alienação de imóveis rurais por pessoa física. Use SEMPRE que o usuário mencionar venda de fazenda, alienação de imóvel rural, ganho de capital rural, GCap, VTN, DIAT, fatores de redução, custo de aquisição de imóvel rural, benfeitorias em imóvel rural, ou qualquer variação de apuração de imposto na venda de terra. Também acione para consultas sobre isenções (pequeno valor, único imóvel, reinvestimento em 180 dias), regime do VTN vs contratual, ou retificação de DITR para otimizar VTN."
 ---
 
