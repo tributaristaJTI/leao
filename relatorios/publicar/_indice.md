@@ -31,6 +31,7 @@ Com isso, o repositório passa a espelhar os arquivos de apoio da conta: `crivo-
 | 2 | destila, briefing-juridico, crivo-do-leao | 23/10: as três SKILL.md batem (mesmos critérios da rodada 1). Arquivos de apoio da conta inalterados (fatos 3 a 5). A `crivo-do-leao` volta na rodada 8 com a frase de remissão. |
 | 3 | mod-ir-venda-imovel, mod-funrural, mod-comparativo-pf-pj | 24/10: as três SKILL.md batem (mesmos critérios); arquivos de apoio inalterados; repositório alinhado ao cabeçalho publicado. |
 | 4 | mod-grupo-economico, cerebro-pbc, regra-matriz | 24/10: as três SKILL.md batem (mesmos critérios); a `cerebro-pbc` sincronizou às 13:50 UTC, depois das outras duas; arquivos de apoio inalterados; repositório alinhado ao cabeçalho publicado. |
+| 5 | fiel-da-balanca, monitor-carf, artigo-juridico | 2026-10-24: corpo após o frontmatter e `description` idênticos nas três; arquivos de apoio inalterados (o `tarefa-agendada.md` da `monitor-carf` segue na versão da conta, como previsto); repositório alinhado ao cabeçalho publicado. |
 
 ## Rodadas (até três cartões por rodada, das mudanças de maior efeito para as menores)
 

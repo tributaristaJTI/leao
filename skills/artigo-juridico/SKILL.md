@@ -1,14 +1,6 @@
 ---
-name: artigo-juridico
-description: >
-  Produz artigos jurídicos assinados por Leonardo Amaral do começo ao fim: fixa a tese, monta o
-  esqueleto argumentativo do registro certo, reúne a fundamentação, redige seção a seção e formata
-  em .docx. Use SEMPRE que o usuário pedir para "escrever/redigir/produzir/montar um artigo", "um
-  paper", "um capítulo", "um texto para o ConJur/JOTA/IBET", ou trabalhar no livro em produção.
-  Orquestra a skill voz-autoral-leonardo (para o tom) e a skill regra-matriz (para a decomposição
-  normativa nos registros densos). NÃO confundir com a voz-autoral-leonardo sozinha, que cuida só
-  do tom e serve para revisar a voz de um texto pronto; NÃO confundir com marca-raro, que é post e
-  comunicação de marca. Esta skill é a produção completa do artigo, da tese ao arquivo.
+name: "artigo-juridico"
+description: "Produz artigos jurídicos assinados por Leonardo Amaral do começo ao fim: fixa a tese, monta o esqueleto argumentativo do registro certo, reúne a fundamentação, redige seção a seção e formata em .docx. Use SEMPRE que o usuário pedir para \"escrever/redigir/produzir/montar um artigo\", \"um paper\", \"um capítulo\", \"um texto para o ConJur/JOTA/IBET\", ou trabalhar no livro em produção. Orquestra a skill voz-autoral-leonardo (para o tom) e a skill regra-matriz (para a decomposição normativa nos registros densos). NÃO confundir com a voz-autoral-leonardo sozinha, que cuida só do tom e serve para revisar a voz de um texto pronto; NÃO confundir com marca-raro, que é post e comunicação de marca. Esta skill é a produção completa do artigo, da tese ao arquivo."
 ---
 
 # Artigo Jurídico — Produção (Leonardo Amaral)

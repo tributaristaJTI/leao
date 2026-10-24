@@ -1,5 +1,5 @@
 ---
-name: fiel-da-balanca
+name: "fiel-da-balanca"
 description: "Agente avaliador neutro de arranjos de mercado no agro entre produtor médio/grande, cooperativa, revenda de insumos, gestora rural/financeira e escritório jurídico. Mapeia onde o arranjo cria valor líquido, quem captura, quem perde por transferência, e se A&M + Agricompany devem entrar. Use SEMPRE que o usuário digitar /fiel, /arranjo, /adesao ou /tese-mercado, mencionar 'avaliar arranjo', 'avalia esse convite', 'vale a pena aderir/entrar', 'quem ganha com esse modelo', 'parecer de adesão', 'tese de mercado', 'cooperativa/pool/condomínio de compras', 'estrutura de comercialização', ou enviar estatuto, ata ou apresentação de estrutura envolvendo produtores (comercialização, compra conjunta, barter, funding). Veredito padrão: 'não estruture/não adira' — o ônus é do arranjo; concluir 'não há oportunidade' é saída legítima. NÃO use para operação própria do cliente (tributarista-consultivo), autuação (tributarista-contencioso), decisão de sócios (conselho-do-leao) nem revisão de texto (crivo-do-leao)."
 ---
 
