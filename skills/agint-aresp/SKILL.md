@@ -1,5 +1,5 @@
 ---
-name: agint-aresp
+name: "agint-aresp"
 description: "Agravo interno (art. 1.021 do CPC) contra decisão monocrática de relator do STJ em AREsp/REsp: parecer de viabilidade GO/NO-GO, redação, teste adversarial e contraminuta. Acione com /agint."
 ---
 

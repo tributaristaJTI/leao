@@ -32,6 +32,7 @@ Com isso, o repositório passa a espelhar os arquivos de apoio da conta: `crivo-
 | 3 | mod-ir-venda-imovel, mod-funrural, mod-comparativo-pf-pj | 24/10: as três SKILL.md batem (mesmos critérios); arquivos de apoio inalterados; repositório alinhado ao cabeçalho publicado. |
 | 4 | mod-grupo-economico, cerebro-pbc, regra-matriz | 24/10: as três SKILL.md batem (mesmos critérios); a `cerebro-pbc` sincronizou às 13:50 UTC, depois das outras duas; arquivos de apoio inalterados; repositório alinhado ao cabeçalho publicado. |
 | 5 | fiel-da-balanca, monitor-carf, artigo-juridico | 2026-10-24: corpo após o frontmatter e `description` idênticos nas três; arquivos de apoio inalterados (o `tarefa-agendada.md` da `monitor-carf` segue na versão da conta, como previsto); repositório alinhado ao cabeçalho publicado. |
+| 6 | entregavel-cliente, guardiao-de-caso, agint-aresp | 2026-10-24: corpo após o frontmatter e `description` idênticos nas três; arquivos de apoio inalterados; repositório alinhado ao cabeçalho publicado. |
 
 ## Rodadas (até três cartões por rodada, das mudanças de maior efeito para as menores)
 
@@ -65,6 +66,8 @@ Arquivos de apoio: pelos fatos 1 e 3, o cartão não toca `references/` nem `ass
 | mod-grupo-economico | 0 | nenhuma alíquota fixa no corpo; o Passo 0 reúne os parâmetros que o módulo herda dos outros três e as alíquotas de ITCMD do estado envolvido |
 
 **Marcador de dispositivo não conferido (entra na rodada 9):** uniformizar em [A CONFERIR: fonte] o marcador da `cerebro-pbc` (S1, "⚠️ verificar contra texto oficial") e da `regra-matriz` (regra geral 1, "⚠️ Verificar contra texto oficial."), que ainda convivem com [A CONFERIR: fonte] nas mesmas skills. Escaparam da varredura do pendente 5, que procurou as formas "[verificar]" e "citado de memória".
+
+**agint-aresp no mesmo lote (rodada 9):** o corpo traz dispositivos e prazos escritos: arts. 1.021, 1.003 (§ 5º) e 219 do CPC; art. 39 da Lei 8.038/1990; Súmulas 182, 281, 315 e 316. Na mesma conferência de 24/10 apareceram ainda o art. 258 do RISTJ, o art. 798 do CPP, o art. 1.035-A do CPC, a Lei 15.484/2026 e a Súmula 7. A seção "Conteúdo volátil" está datada de 19/08/2026 e o gatilho de revisão era setembro/2026, já vencido. Tratamento: os prazos e dispositivos do corpo viram parâmetros do Passo 0, com fonte e status; o "Conteúdo volátil" é reverificado no Jusratio e na fonte oficial, e ganha nova data e novo gatilho. A agint-aresp não é módulo de cálculo, então o Passo 0 dela confere o rito e os prazos, e não alíquotas.
 
 **Como fazer quando aprovado:** reescrever por proposta ao lado da atual, como na decisão 9 do laudo; Leonardo aprova; arquivos de publicação novos; rodada 9 de cartões. A `description` de cada módulo fica igual.
 

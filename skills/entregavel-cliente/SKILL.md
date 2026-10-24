@@ -1,5 +1,5 @@
 ---
-name: entregavel-cliente
+name: "entregavel-cliente"
 description: "Skill transversal para formatação de entregáveis ao cliente. Use SEMPRE que o usuário mencionar 'entregável', 'documento para o cliente', 'formatar para o cliente', 'relatório para o produtor', 'apresentar os cenários', 'montar o documento de decisão', 'relatório executivo', ou qualquer variação de pedido para transformar uma análise técnica em material de decisão para o cliente leigo. Também acione quando o usuário disser 'agora formata isso pro cliente', 'monta o documento final', 'prepara pra mandar pro cliente'. Funciona de forma independente — pode ser acionada com análise já feita em outro módulo ou em outro Project."
 ---
 

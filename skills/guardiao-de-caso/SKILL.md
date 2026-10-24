@@ -1,5 +1,5 @@
 ---
-name: guardiao-de-caso
+name: "guardiao-de-caso"
 description: "Guardião do dossiê de cliente no Arquivo AeM (Google Drive): mantém o mapa estrutural do cliente/grupo (_mapa.md: pessoas, patrimônio, sociedades, casos em andamento) e, por caso, o retrato vivo (_casos/caso/_estado.md) com livro só-acréscimo (_ledger/). Use SEMPRE que o usuário digitar /dossie, ou pedir 'abre o dossiê', 'em que pé está o caso', 'o que decidimos sobre', 'mapeia o caso', 'mapa do grupo', 'atualiza o estado do caso'. Lê documentos por ID e mapeia com lastro; não redige peças (braco-direito, parecer-aem), não arquiva documentos (arquivo-do-leao), não planeja fases (mestre-de-obras), não registra status de tarefa (monday-caso), não grava tese (destila)."
 ---
 
