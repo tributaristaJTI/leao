@@ -35,6 +35,8 @@ Com isso, o repositório passa a espelhar os arquivos de apoio da conta: `crivo-
 | 6 | entregavel-cliente, guardiao-de-caso, agint-aresp | 2026-10-24: corpo após o frontmatter e `description` idênticos nas três; arquivos de apoio inalterados; repositório alinhado ao cabeçalho publicado. |
 | 7 | parecer-aem, pesquisa-gcap, tributarista-consultivo | 2026-10-24: corpo após o frontmatter e `description` idênticos nas três; arquivos de apoio inalterados (inclusive `assets/`, `references/` e `scripts/` da `parecer-aem`); repositório alinhado ao cabeçalho publicado. |
 
+**Rodada 8 (tributarista-contencioso, crivo-do-leao): conferida em 24/10 e ainda não publicada.** Na conta, a `tributarista-contencioso` continua com a data de 01/04/2026 e a `crivo-do-leao` com a da rodada 2 (23/10, 01:39 UTC). O corpo das duas ainda é o anterior, ou seja, os cartões não foram salvos. O ciclo das 22 skills fecha quando esta rodada bater.
+
 ## Rodadas (até três cartões por rodada, das mudanças de maior efeito para as menores)
 
 | Rodada | Arquivos em `relatorios/publicar/` | Por que nesta ordem |
@@ -74,6 +76,8 @@ Arquivos de apoio: pelos fatos 1 e 3, o cartão não toca `references/` nem `ass
 - `pesquisa-gcap`: dispositivos escritos no Questionário canônico, Q1 a Q9 (linhas 37 a 45 da versão de 24/10).
 - `parecer-aem`: o exemplo de interação cita CF, art. 195, e Lei 10.833/2003 como fundamentação (linha 98 da versão de 24/10).
 
+**tributarista-contencioso no mesmo lote (rodada 9):** o corpo traz dispositivos escritos: arts. 150, § 4º, 173, I, e 156, I, do CTN; art. 155, § 2º, X, "a", da CF; Lei 13.988/2020 (conferidos no texto da skill em 24/10; o art. 156, I, aparece no exemplo de saída). Traz também a afirmação "STF reconhece confisco acima de 100% do tributo em casos não qualificados", que é tese jurisprudencial sem fonte dentro de uma skill que agora manda conferir. Tratamento: os dispositivos viram "mapa, não fonte"; a tese do confisco ou ganha precedente conferido no Jusratio, com tribunal, número e data, ou sai do corpo.
+
 **Como fazer quando aprovado:** reescrever por proposta ao lado da atual, como na decisão 9 do laudo; Leonardo aprova; arquivos de publicação novos; rodada 9 de cartões. A `description` de cada módulo fica igual.
 
 ## Prompt para o chat do Claude (uma rodada por vez)
@@ -87,3 +91,17 @@ Leia relatorios/publicar/<arquivo 1>, <arquivo 2> e <arquivo 3>. Para cada um, p
 ## Depois de cada rodada
 
 Na sessão seguinte do Code, a cópia em `~/.claude/skills/synced/*/<nome>/` traz a versão nova. Conferir com `diff` contra `skills/<nome>/SKILL.md`; batendo, commit "publicada v<n>: <nome>".
+
+## Skills públicas (Anthropic) · espelho da conta
+
+Não são editadas por nós; o repositório só as espelha. Em 24/10, a `pptx` estava mais velha que a conta (a conta troca o `markitdown` por `scripts/slide_text.py`, script novo) e foi recopiada inteira. As demais (docx, xlsx, pdf, canvas-design, deep-research, doc-coauthoring, docs, internal-comms, skill-creator, theme-factory, learn, import-memory, google-workspace, computer-use, chrome-browser, built-in-browser, morning) batem com a conta. A `apple-design` e a `melhorar-prompts` estavam na lista conferida, mas são skills da casa e também batem.
+
+## Em aberto (24/10/2026)
+
+1. **Rodada 8:** salvar os cartões da `tributarista-contencioso` e da `crivo-do-leao`, conferir e fechar o ciclo das 22 skills.
+2. **Plugin `ecossistema-do-leao`:** publicação pela tela de plugins da conta (`_plugin-ecossistema-do-leao.md`); a versão 0.1.0 → 0.2.0 depende de decisão de Leonardo.
+3. **Rodada 9, só com aprovação de Leonardo:**
+   - Passo 0 nos módulos: `mod-ir-venda-imovel`, `mod-funrural`, `mod-comparativo-pf-pj`, `mod-grupo-economico`;
+   - uniformização do marcador de dispositivo não conferido em `cerebro-pbc` (S1) e `regra-matriz` (regra geral 1);
+   - candidatas acumuladas: `agint-aresp` (prazos, dispositivos e conteúdo volátil vencido), `pesquisa-gcap` (Q1 a Q9), `parecer-aem` (exemplo de interação), `tributarista-contencioso` (dispositivos e tese do confisco).
+4. **Plugin legal (pendente 1 de `correcoes-skills.md`):** conferir se o painel desativa skill a skill.
