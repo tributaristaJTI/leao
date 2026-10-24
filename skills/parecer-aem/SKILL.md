@@ -1,5 +1,5 @@
 ---
-name: parecer-aem
+name: "parecer-aem"
 description: "Skill para emissão de pareceres jurídicos e briefings da Amaral e Melo Advogados. Use SEMPRE que o usuário mencionar 'parecer', 'opinião legal', 'briefing jurídico', 'consulta tributária', 'análise jurídica', 'nota técnica', ou pedir para analisar a legalidade/constitucionalidade de alguma questão tributária ou do agronegócio. Também acione quando o usuário pedir para 'emitir parecer sobre', 'analisar juridicamente', 'fundamentar posição sobre', ou qualquer variação de pedido de produção de peça consultiva. Mesmo que o pedido seja informal (ex: 'me ajuda a montar aquele parecer sobre ICMS'), esta skill deve ser acionada. Não use para petições, contratos, artigos de opinião ou apresentações — apenas para peças consultivas (pareceres e briefings)."
 ---
 

@@ -1,5 +1,5 @@
 ---
-name: tributarista-consultivo
+name: "tributarista-consultivo"
 description: "Skill de análise tributária consultiva e planejamento. Use SEMPRE que o usuário mencionar planejamento tributário, estruturação de operação, parecer preventivo, análise de viabilidade, elisão fiscal, reestruturação societária, otimização tributária, holding rural, regime tributário ideal, comparativo de cenários fiscais, ou qualquer análise prospectiva sobre operações ainda não realizadas ou não autuadas. Também acione para perguntas sobre zona cinzenta entre elisão e evasão, propósito negocial, substância econômica, ou quando o usuário pedir para 'avaliar o risco tributário de', 'analisar se compensa', 'estruturar a operação', 'comparar regimes', 'montar cenários'. Não use para defesas contra autuações já formalizadas, impugnações, recursos ou contencioso — para isso existe a skill tributarista-contencioso."
 ---
 
